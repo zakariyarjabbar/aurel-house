@@ -6,6 +6,8 @@ Verified: strict typecheck, lint and static production build passed; 29 domain/s
 
 Documentation, asset provenance, the final design system and component sidecar, social card, canonical/noindex metadata, screenshots and factual case-study draft are complete. The documentation subagent was interrupted by the usage limit; the main agent completed that record from final source.
 
+Link-preview follow-up: retained and inspected the branded 1200×630 JPEG; added explicit large-image card metadata and automatic Vercel production-origin selection. Typecheck, lint, 32 tests and both local/simulated-production static metadata checks passed. Changes remain entirely build-time. Live social-preview crawling is unverified until deployment.
+
 Pending implementation: none within the requested browser-only scope. Blocked work: none. The user authorized a private GitHub source repository at `https://github.com/zakariyarjabbar/aurel-house`, using `main`. Website deployment has not been performed; the user will deploy through Vercel.
 
 Known limits: booking's cold throttled mobile LCP measured 4.256 seconds; Safari/Firefox, physical devices and manual screen-reader testing were not run. Source photos are 1536×1024. Browser storage is editable, may be cleared, and cannot guarantee multi-tab atomic transactions. No backend, database, auth, real payments, email or shared live inventory is implemented.

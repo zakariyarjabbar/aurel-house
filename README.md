@@ -83,7 +83,9 @@ Same-origin tabs in the same browser profile share state. Other devices, browser
 
 Upload the **contents of `out/`** to a static host that serves directory `index.html` files and `404.html` for missing routes. All ten known content slugs are generated at build time; runtime references use fixed paths with query parameters. Do not add an SPA fallback that returns the homepage for missing routes. Use HTTPS when hosting; secure-context browser APIs are supported on localhost during development.
 
-Before an authorized deployment, optionally build with `NEXT_PUBLIC_SITE_URL=https://your-authorized-host.example npm run build` to set the public canonical/social origin. The default is `http://localhost:3001`; no origin or credential is needed to run locally. Keep `noindex` because this is a fictional commercial concept. **No external publishing has been performed.**
+The designed link preview is `public/images/social-preview.jpg` (1200×630), with Open Graph image dimensions/alt text and an explicit large-image Twitter/X card. Its URL and canonical origin use `NEXT_PUBLIC_SITE_URL` when configured, then Vercel's stable `VERCEL_PROJECT_PRODUCTION_URL`, then `VERCEL_URL`. The local-only fallback is `http://localhost:3001`. Vercel documents its [production-domain variable](https://vercel.com/docs/environment-variables/system-environment-variables#vercel_project_production_url) specifically for stable Open Graph image URLs.
+
+On Vercel, keep system environment variables exposed so the build can resolve its public domain automatically. For a different host or an explicit custom origin, build with `NEXT_PUBLIC_SITE_URL=https://your-authorized-host.example npm run build`. Rebuild after changing the domain. No credentials are required. Keep `noindex` because this is a fictional commercial concept. The source is on private GitHub; website deployment is separate.
 
 ## Assets and supporting documents
 

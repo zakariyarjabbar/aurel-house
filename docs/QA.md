@@ -8,7 +8,7 @@ Verified on 9 September 2026, on macOS with Node 26.0.0 and isolated headless Go
 |---|---|
 | `npm run typecheck` | Passed, strict TypeScript, no errors |
 | `npm run lint` | Passed, no errors or warnings |
-| `npm test` | 29 passed, 0 failed |
+| `npm test` | 32 passed, 0 failed, including three metadata-origin regressions |
 | `npm run build` | Passed; all known content generated into `out/` |
 | `npm run start` | Static file server running on port 3001 |
 | `npm run test:browser` | Passed 16/16; 26 routes, 28 full-page captures, zero page errors |
@@ -83,6 +83,16 @@ Measurements are from isolated Chrome contexts at 390×844, device scale factor 
 | Booking | 2.256s | 4.256s | 0.00007 | 827,582 |
 
 Booking is the slowest representative page and remains a performance limitation under this throttle. Prior comparable runs ranged from 3.728–4.256s LCP for booking. The static loading layout reduced its early measured CLS of 0.503; post-fix runs ranged from about 0.00007–0.046. A single run is not a stable field estimate.
+
+## Link-preview follow-up
+
+The existing 1200×630 branded JPEG was opened and visually inspected; its coastal photograph and typography were retained. The root metadata now declares the image dimensions, MIME type, alt text, site name, website type and large-image Twitter/X card. Build-time origin selection uses an explicit public domain or Vercel's production domain rather than shipping localhost on a normal Vercel deployment.
+
+Typecheck, lint and all 32 tests passed. Three new tests cover explicit-domain precedence, production/preview/local fallbacks, origin normalization and invalid/credential-bearing URL rejection. The existing 29 domain/storage tests remain unchanged.
+
+`VERCEL_PROJECT_PRODUCTION_URL=metadata-test.example npm run build` followed by `AUREL_METADATA_ORIGIN=https://metadata-test.example node scripts/check-social-preview.mjs` passed for all 26 exported routes. This is a synthetic build fixture, not a deployed site. A subsequent ordinary `npm run build` and `node scripts/check-social-preview.mjs` passed with the local fallback. Checks read crawler-visible HTML directly and verify matching Open Graph/Twitter titles/images, absolute origins, canonical paths, noindex, exported image files and the JPEG's actual dimensions. Booking/browser flows were not rerun for this metadata-only follow-up; their earlier results are recorded above.
+
+No live deployment URL was available in the repository's deployment records. Actual third-party preview caches and live crawlers have not been checked; a new deployment is needed to publish these tags.
 
 ## Remaining limits
 
