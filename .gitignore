@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.DS_Store
+assets/source/*.png
+assets/source/*.jpg
+test-results/
+.env*
+!.env.example
+.vercel/
+coverage/
+playwright-report/
+*.log

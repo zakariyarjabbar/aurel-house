@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape architectural hotel photograph, 1536x1024.\nInput image 1: REFERENCE IMAGE for the same fictional AUREL HOUSE property, architecture, materials and color; create a new photograph rather than reproducing the hero composition.\nProperty/style invariants: intimate fictional twelve-room Mediterranean house, warm limestone and warm-white limewash, flat roof coping, rectangular walnut-framed windows, walnut furniture, natural ivory linen, woven chairs, aged bronze, olive and rosemary, realistic travel-journal photography, warm natural directional daylight, tactile materials and subtle film grain. No people, text, logo, watermark, collage, UI, dramatic HDR or artificial showroom rendering.\nPrimary request: photograph the sleeping area of a modest 30m² Terrace Room. Exactly one king bed with a low continuous walnut panel headboard, ivory linen, two faded clay-colored cushions and a clay-colored woven throw at the foot. A round walnut bedside table and aged bronze lamp. At the right, rectangular walnut-framed glazed doors open at ground level onto the room's small private limestone terrace, with exactly two woven chairs and a little round table enclosed by rosemary, one olive planter and a pale limestone privacy wall. No sea visible. Composition eye-level three-quarter view including king bed and the real small planted terrace. No couch, no daybed, no balcony, no bath tub.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "terrace-room-1",
+  "sourceSHA256": "5c02ca68d989ec27b2348a67ba22e4d937dc4f58eeccbbd3fec9afe3b11762ef",
+  "referenceIds": [
+    "hero"
+  ],
+  "alt": "The Terrace Room’s king bed with clay linen accents opens onto a private planted terrace.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

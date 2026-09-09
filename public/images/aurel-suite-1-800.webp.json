@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape architectural hotel photograph, 1536x1024.\nInput image 1: REFERENCE IMAGE for the same fictional AUREL HOUSE property, architecture, materials and color; create a new photograph rather than reproducing the hero composition.\nProperty/style invariants: intimate fictional twelve-room Mediterranean house, warm limestone and warm-white limewash, flat roof coping, rectangular walnut-framed windows, walnut furniture, natural ivory linen, woven chairs, aged bronze, olive and rosemary, realistic travel-journal photography, warm natural directional daylight, tactile materials and subtle film grain. No people, text, logo, watermark, collage, UI, dramatic HDR or artificial showroom rendering.\nPrimary request: photograph the king bedroom of a 52m² Aurel Suite. Exactly one king bed with a tall plain walnut panel headboard, ivory linen, ochre woven lumbar cushion and folded warm sand throw. Paired compact walnut nightstands, aged bronze lamps. Pale limestone floor and warm limewash walls. A broad rectangular interior doorway at the right of the image leads to a physically SEPARATE lounge, partly visible with a sand-colored two-person sofa bed and small walnut coffee table; beyond it rectangular walnut-framed terrace doors reveal a private limestone sea-facing terrace. Do not merge the bed and lounge into one open-plan studio. Camera three-quarter from bedroom corner, relaxed luxury with honest modest scale. No tub, no extra beds, no vaulted domes.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "aurel-suite-1",
+  "sourceSHA256": "b4b7715c99f2c2769a9e26b44ca486ec3447415314c22446dac6c2afebe3e6d5",
+  "referenceIds": [
+    "hero"
+  ],
+  "alt": "The Aurel Suite’s king bedroom, with a doorway to its separate lounge and sea-facing terrace.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

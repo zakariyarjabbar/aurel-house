@@ -1,0 +1,18 @@
+import Link from 'next/link';
+import { ArrowDown, ArrowUpRight } from 'lucide-react';
+import { Photo } from '@/components/photo';
+import { Emblem } from '@/components/identity';
+import { TextLink, StoryCards } from '@/components/editorial';
+import { HomeRooms } from '@/components/rooms';
+import { JOURNAL } from '@/lib/content';
+import { SearchStrip } from '@/components/search';
+export default function Home() { return <>
+  <section className="home-hero"><Photo id="hero" priority sizes="100vw" /><div className="hero-shade" /><div className="hero-content"><p className="hero-location">AN INTIMATE MEDITERRANEAN RETREAT</p><h1>Twelve rooms.<br /><em>Days without hurry.</em></h1><p>Sun-warmed stone. Salt in the air.<br />A little room to simply be.</p><Link className="hero-link" href="/rooms/">Step inside <ArrowUpRight size={18} /></Link></div><div className="hero-bottom"><span>A SMALL HOUSE BY THE SEA</span><a href="#welcome" aria-label="Discover the house"><ArrowDown size={21} /></a></div></section>
+  <SearchStrip />
+  <section className="intro-section wrap" id="welcome"><div className="intro-stamp"><Emblem /><span>Come as you are.<br />Stay a little longer.</span></div><div><h2>Some places ask you<br />to do more.<br /><em>We invite you to be.</em></h2><div className="intro-copy"><p>Between an olive-shaded courtyard and an endless blue horizon, a small house finds its own rhythm. Twelve thoughtful rooms. Food that follows the season. Days that belong entirely to you.</p><TextLink href="/the-house/">The story of our house</TextLink></div></div></section>
+  <section className="home-rooms wrap"><div className="section-title"><h2>Your own<br /><em>little somewhere.</em></h2><div><p>Four ways to feel at home.<br />Each with a different light, all with the same care.</p><TextLink href="/rooms/">Explore all rooms</TextLink></div></div><HomeRooms /></section>
+  <section className="day-section"><div className="day-title"><p>NO SCHEDULE REQUIRED</p><h2>A day, <em>at the house.</em></h2></div><div className="day-grid"><article><Photo id="dining" /><div><span>08:30 · A SLOW BEGINNING</span><h3>One more coffee.</h3><p>Warm bread, ripe fruit, and the best seat in the morning sun.</p></div></article><article><Photo id="pool" /><div><span>14:00 · NOWHERE ELSE TO BE</span><h3>The afternoon is yours.</h3><p>A dip in the pool. A book in the shade. Perhaps another dip.</p></div></article><article><Photo id="evening" /><div><span>19:30 · THE LAST OF THE LIGHT</span><h3>Let dinner linger.</h3><p>Seasonal plates, a familiar table, and no reason to rush.</p></div></article></div></section>
+  <section className="dining-feature wrap"><Photo id="evening" className="dining-feature-image" /><div><span className="section-note">GATHER AROUND</span><h2>A table.<br />A season.<br /><em>A good evening.</em></h2><p>Simple things, made with care. Our kitchen follows the coast and the garden, bringing what is good today to the table tonight.</p><TextLink href="/dining/">At the table</TextLink></div></section>
+  <section className="coast-feature"><Photo id="coast" sizes="100vw" /><div><h2>A little further.<br /><em>A little slower.</em></h2><p>Follow the path. Find a quiet cove.<br />Let the coast show you the way.</p><Link href="/experiences/" className="button light-button">Discover the coast <ArrowUpRight size={18} /></Link></div></section>
+  <section className="journal-home wrap"><div className="section-title"><h2>Notes from <em>the house.</em></h2><TextLink href="/journal/">Read the journal</TextLink></div><StoryCards stories={JOURNAL} base="journal" /></section>
+  </>; }

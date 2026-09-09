@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape photograph, 1536x1024, for a hotel room gallery.\nInput image 1: REFERENCE IMAGE showing the exact room to photograph from a new viewpoint. Keep its furniture identity, headboard, linens, lamps, window/door shape, dimensions, materials and outlook consistent. This is a new camera position in the SAME room, not another hotel room, not a crop or montage.\nStyle: natural architectural travel-journal photography, warm directional daylight, warm limestone and limewash, walnut, ivory linen, woven texture and aged bronze; realistic perspective and subtle film grain. No people, logos, text, watermark, UI, new luxury amenities or tub.\nPrimary request: photograph the Aurel Suite's SEPARATE lounge, moving the camera through the bedroom doorway seen in the reference and into the lounge. The same modest two-person sand/ivory linen sofa bed sits against the left limewash wall with ochre and ivory cushions and a slender bronze floor lamp with ivory shade. A low rectangular walnut coffee table with small clay vase is on a simple woven rug over limestone paving. Broad rectangular walnut-framed glazed doors lead to the private limestone terrace and the same rocky blue-green sea beyond. An edge of the doorway back toward the king bedroom may be visible at far left, but do not place the bed in this lounge. Clear three-quarter composition of the sofa, table and terrace doors, no grand resort scale.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "aurel-suite-2",
+  "sourceSHA256": "c6cbd00cc2a44c791139171eca02151a5c3cca2f637ecc23a1a4b6474eb822c7",
+  "referenceIds": [
+    "aurel-suite-1"
+  ],
+  "alt": "A separate lounge with a two-person linen sofa bed and doors to the Aurel Suite’s sea terrace.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

@@ -1,0 +1,13 @@
+import type { RoomSlug } from './catalog';
+import type { Stay } from './dates';
+import type { Extras, Quote } from './pricing';
+export type Guest = { name: string; email: string; requests: string };
+export type Draft = Stay & { roomSlug: RoomSlug | ''; extras: Extras; guest: Guest; submissionId: string; step: number; amendmentRef?: string };
+export type ReservationStatus = 'confirmed' | 'checked-in' | 'checked-out' | 'cancelled';
+export type Reservation = Stay & { ref: string; submissionId: string; unitId: string; roomSlug: RoomSlug; roomName: string; extras: Extras; guest: Guest; quote: Quote; policy: string; status: ReservationStatus; source: 'sample' | 'visitor'; createdAt: string; updatedAt: string; refunded: number; adjustments: { id: string; amount: number; at: string }[] };
+export type Maintenance = { id: string; unitId: string; arrival: string; departure: string; reason: string };
+export type Inquiry = { id: string; name: string; email: string; subject: string; message: string; createdAt: string };
+export type Message = { id: string; ref: string; recipient: string; subject: string; body: string; createdAt: string };
+export type Activity = { id: string; action: string; ref?: string; amount?: number; at: string };
+export type Override = { baseRate?: number; name?: string; short?: string; description?: string };
+export type DemoState = { schemaVersion: 1; revision: number; seedAnchor: string; draft: Draft; reservations: Reservation[]; roomOverrides: Partial<Record<RoomSlug, Override>>; maintenance: Maintenance[]; inquiries: Inquiry[]; messages: Message[]; activity: Activity[] };

@@ -1,0 +1,12 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape room-outlook photograph, 1536x1024.\nInput images: REFERENCE IMAGE(S) of the actual room and its adjoining outlook. Preserve the exact room identity, walnut rectangular window/door style, limestone, furniture and view. Create a new photograph from a new camera position, not a montage or pasted landscape.\nStyle: natural architectural travel-journal photography, warm directional daylight, tactile limestone and warm limewash, walnut and linen, subtle film grain, believable perspective and true scale. No people, logos, text, watermark, UI, luxurious added amenities, domes, new boats or pools.\nPrimary request: step onto the Aurel Suite's actual private limestone sea terrace shown beyond the separate lounge in the references. Photograph two modest woven walnut lounge chairs with ivory cushions around the small pale cylindrical stone side table seen in the lounge reference; the second matching chair was just out of frame before. A single handmade ceramic cup on the table, a clay olive planter to the side, a low pale limestone parapet in back. The same rocky coast, blue-green sea and flat-topped headland stretch beyond the parapet. At far left include an edge of the rectangular walnut-framed lounge door with ivory curtain so the terrace is clearly attached to the suite. Natural golden late-afternoon light, intimate private scale, no plunge pool, hot tub, jacuzzi, pergola, extra sunbeds or resort expanse.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding room references, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "aurel-suite-4",
+  "sourceSHA256": "834e524e4a6e94c039a5636bf4396b3629119043dc522b38937a7869c248df48",
+  "referenceIds": [
+    "aurel-suite-1",
+    "aurel-suite-2"
+  ],
+  "alt": "The Aurel Suite’s private limestone terrace has two woven chairs overlooking the rocky sea.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

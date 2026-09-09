@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape photographic asset for the AUREL HOUSE hotel website, 1536x1024.\nInput image 1: REFERENCE IMAGE of this same fictional hotel, its small scale, exact warm limestone architecture and adjacent rocky coast. Create a NEW scene or camera angle; do not copy the hero composition.\nStyle invariants: natural architectural travel-journal photography, quiet authentic Mediterranean atmosphere, warm directional sunlight, subtle film grain, honest physical textures. Warm limestone/limewash, walnut, ivory linen, woven chairs, aged bronze, olive/rosemary, modest scale. No people, text, logos, watermark, montage, UI, large resort, infinity pool or dramatic synthetic HDR.\nPrimary request: view the same small simple rectangular turquoise pool from the reference photograph, now close to its far limestone edge. Low eye-level camera looks diagonally along the turquoise water toward the hotel's olive tree and limestone ground-floor archway, with a narrow glimpse of the same rocky blue-green sea to the right. Include the pool's real stone coping and worn paving in foreground, two understated walnut loungers with ivory linen cushions on one side. Calm sunlit water ripples and realistic reflections. Preserve the reference house's two-story warm limestone, flat clay-colored roof coping and rectangular walnut-framed windows. The pool remains intimate and rectangular, not a large resort pool.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "pool",
+  "sourceSHA256": "62b43d0bbb05adbc4bfe57eb09e7b4d4a842d7246f11f472ca5b02f1a319f363",
+  "referenceIds": [
+    "hero"
+  ],
+  "alt": "The small rectangular pool reflects limestone walls and olive branches beside the sea.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

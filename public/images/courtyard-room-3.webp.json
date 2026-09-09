@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: a single standalone landscape bathroom photograph for a hotel room gallery, 1536x1024.\nInput image 1: REFERENCE IMAGE for the adjoining room's exact warm limewash, pale limestone, walnut and aged bronze aesthetic. Photograph its private bathroom, a NEW space attached to the same fictional room. It must share the room's scale and material palette.\nBathroom invariants: genuine walk-in shower with pale stone floor, properly mounted aged bronze showerhead and controls, a fixed clear glass splash screen, believable plumbing and an open walk-in entry. Pale limestone, warm limewash, walnut details, ivory towels, simple unbranded handmade soap dish. Absolutely NO bathtub, tub rim, hot tub, spa pool or freestanding soaking vessel. No people, logos, text, watermark, UI, collage, glossy marble, gold trim or dramatic luxury staging. Natural architectural editorial photography with honest perspective, soft directional daylight and subtle film grain.\nPrimary request: the compact private bathroom of the 24m² Courtyard Room. Three-quarter view from doorway, single small rectangular limestone basin in a thick stone counter on the left with a walnut shelf below, one aged bronze wall tap, a small rectangular bronze-framed mirror. A slim open-entry walk-in shower with clear glass screen occupies the back right, matching stone walls, bronze showerhead, a shallow niche with one unlabelled bottle. A folded olive hand towel and ivory bath towel. Gentle daylight enters from a high narrow rectangular frosted courtyard window. Keep the bathroom modest and practical; no sea view and no exterior terrace door.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "courtyard-room-3",
+  "sourceSHA256": "1b213c9a1100506b0f606c4d62ad68f0c83acf2b3ec5d88b2a48bf03aedb92d8",
+  "referenceIds": [
+    "courtyard-room-1"
+  ],
+  "alt": "A compact limestone bathroom with a single basin, bronze fittings and a walk-in shower in the Courtyard Room.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

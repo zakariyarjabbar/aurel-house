@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape architectural hotel photograph, 1536x1024.\nInput image 1: REFERENCE IMAGE for the same fictional AUREL HOUSE property, architecture, materials and color; create a new photograph rather than reproducing the hero composition.\nProperty/style invariants: intimate fictional twelve-room Mediterranean house, warm limestone and warm-white limewash, flat roof coping, rectangular walnut-framed windows, walnut furniture, natural ivory linen, woven chairs, aged bronze, olive and rosemary, realistic travel-journal photography, warm natural directional daylight, tactile materials and subtle film grain. No people, text, logo, watermark, collage, UI, dramatic HDR or artificial showroom rendering.\nPrimary request: photograph a 38m² Sea Studio. Exactly one king bed with a wide horizontally slatted walnut headboard, warm ivory linen and one olive lumbar cushion. Exactly one simple single-width linen daybed, with one long seat cushion and a low walnut frame, sits near the large sea-facing rectangular walnut-framed window. The window is a true window with sill, NOT a balcony door, and looks over low rocky coastline and open blue-green Mediterranean water. Warm limewash walls and pale limestone floor, aged bronze bedside lights, simple ceramic bowl. Composition from entry across king bed to daybed and window, showing truthful studio proportions. NO private terrace, NO balcony, NO second bed, NO sofa bed, NO bath tub.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "sea-studio-1",
+  "sourceSHA256": "99169fb8d1223bbb865a7e1dbf607039a89baa449b77d461c8c10974009cc415",
+  "referenceIds": [
+    "hero"
+  ],
+  "alt": "A king bed and single linen daybed in the Sea Studio, with blue-green water through a rectangular window.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

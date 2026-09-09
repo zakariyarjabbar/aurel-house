@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape photograph, 1536x1024, for a hotel room gallery.\nInput image 1: REFERENCE IMAGE showing the exact room to photograph from a new viewpoint. Keep its furniture identity, headboard, linens, lamps, window/door shape, dimensions, materials and outlook consistent. This is a new camera position in the SAME room, not another hotel room, not a crop or montage.\nStyle: natural architectural travel-journal photography, warm directional daylight, warm limestone and limewash, walnut, ivory linen, woven texture and aged bronze; realistic perspective and subtle film grain. No people, logos, text, watermark, UI, new luxury amenities or tub.\nPrimary request: a new photograph from beside the courtyard window toward the reading corner and queen bed of this same compact 24m² Courtyard Room. The woven walnut reading chair is prominent in the foreground, its arm and woven seat tactile and crisp, with a small ceramic cup on a circular walnut side table. Beyond it, show a side/diagonal view of the same queen bed with continuous solid walnut headboard, olive lumbar cushion, olive throw and aged bronze wall lamps. Include a portion of the open rectangular window with olive foliage and the enclosed limestone court only. Make this a meaningfully different intimate reading-corner composition with some of the bed intentionally out of frame. No sea, balcony, terrace, couch or daybed.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "courtyard-room-2",
+  "sourceSHA256": "1c5b4c5965b07a65b8084916a37e6241613381fb26635a870c42f6cb556c63a7",
+  "referenceIds": [
+    "courtyard-room-1"
+  ],
+  "alt": "A woven reading chair and small ceramic cup beside the Courtyard Room’s olive-accented queen bed.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

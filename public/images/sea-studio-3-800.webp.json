@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: a single standalone landscape bathroom photograph for a hotel room gallery, 1536x1024.\nInput image 1: REFERENCE IMAGE for the adjoining room's exact warm limewash, pale limestone, walnut and aged bronze aesthetic. Photograph its private bathroom, a NEW space attached to the same fictional room. It must share the room's scale and material palette.\nBathroom invariants: genuine walk-in shower with pale stone floor, properly mounted aged bronze showerhead and controls, a fixed clear glass splash screen, believable plumbing and an open walk-in entry. Pale limestone, warm limewash, walnut details, ivory towels, simple unbranded handmade soap dish. Absolutely NO bathtub, tub rim, hot tub, spa pool or freestanding soaking vessel. No people, logos, text, watermark, UI, collage, glossy marble, gold trim or dramatic luxury staging. Natural architectural editorial photography with honest perspective, soft directional daylight and subtle film grain.\nPrimary request: a close architectural detail inside the Sea Studio's private walk-in shower. The subject is a properly mounted aged bronze overhead rainfall showerhead and separate hand shower against warm pale limestone slabs, a neat recessed stone niche with two small unlabelled ceramic bottles and an ivory washcloth. The clear glass screen edge and the pale stone shower floor with a discreet linear drain are visible, proving this is a walk-in shower. At one edge include a small portion of an adjacent walnut vanity with a single stone basin. Natural light, clean realistic hardware and restrained photographic composition. No bathtub, sea doorway, terrace, extra basin or spa.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "sea-studio-3",
+  "sourceSHA256": "377924bcb85e7cdf0060af82c2224660fb6d61a08e678abc08d1f01d6e4e3005",
+  "referenceIds": [
+    "sea-studio-1"
+  ],
+  "alt": "Aged bronze shower fittings, a recessed stone shelf and a clear screen in the Sea Studio’s walk-in shower.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape photograph, 1536x1024, for a hotel room gallery.\nInput image 1: REFERENCE IMAGE showing the exact room to photograph from a new viewpoint. Keep its furniture identity, headboard, linens, lamps, window/door shape, dimensions, materials and outlook consistent. This is a new camera position in the SAME room, not another hotel room, not a crop or montage.\nStyle: natural architectural travel-journal photography, warm directional daylight, warm limestone and limewash, walnut, ivory linen, woven texture and aged bronze; realistic perspective and subtle film grain. No people, logos, text, watermark, UI, new luxury amenities or tub.\nPrimary request: photograph this same 30m² Terrace Room from just outside its open walnut-framed terrace doorway looking inward at the king sleeping area. This is a meaningfully different reverse viewpoint from the primary reference. Preserve the king bed's continuous walnut panel headboard, two faded clay pillows, clay throw, ivory linen, round walnut nightstand and aged bronze dome lamp; the same quiet neutral framed artwork is over the headboard. Show a sliver of rosemary and one woven terrace chair in near foreground to establish ground-level terrace entry, and the bed within the warm limewashed room. Real compact dimensions, natural doorway framing, no sea view, no balcony, sofa or daybed.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "terrace-room-2",
+  "sourceSHA256": "c97281a2e7b61ffbf0b4f962ddaccd59c2c51760b19ef90655a14f47893b051e",
+  "referenceIds": [
+    "terrace-room-1"
+  ],
+  "alt": "A view from the planted terrace into the Terrace Room’s king sleeping area.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-09T14:48:48.486Z",
+  "title": "Design System: AUREL HOUSE",
+  "extensions": {
+    "colorMeta": {
+      "deep-sea": {
+        "displayName": "Deep sea",
+        "role": "primary"
+      },
+      "limestone": {
+        "displayName": "Limestone",
+        "role": "neutral"
+      },
+      "terracotta": {
+        "displayName": "Terracotta",
+        "role": "secondary"
+      },
+      "sand": {
+        "displayName": "Sand",
+        "role": "neutral"
+      },
+      "warm-gray": {
+        "displayName": "Warm gray",
+        "role": "neutral"
+      },
+      "rule": {
+        "displayName": "Fine rule",
+        "role": "neutral"
+      },
+      "error": {
+        "displayName": "Error",
+        "role": "semantic"
+      },
+      "summary": {
+        "displayName": "Booking summary",
+        "role": "neutral"
+      },
+      "sea-hover": {
+        "displayName": "Sea hover",
+        "role": "primary"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Editorial display",
+        "purpose": "Headings and expressive hotel story."
+      },
+      "body": {
+        "displayName": "Body and controls",
+        "purpose": "Reading, labels, native controls and detailed prices."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-settle",
+        "value": "cubic-bezier(.22,1,.36,1)",
+        "purpose": "Shared restrained easing."
+      },
+      {
+        "name": "image-hover",
+        "value": "transform .8s cubic-bezier(.22,1,.36,1)",
+        "purpose": "Small scale to 1.025 on linked images."
+      },
+      {
+        "name": "dialog-enter",
+        "value": ".25s",
+        "purpose": "Short visible-default dialog settling; removed for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "700px"
+      },
+      {
+        "name": "single-column-booking",
+        "value": "850px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "wide",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary booking or form action.",
+      "html": "<button class=\"ds-button ds-control\">Find your stay <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button{font-family:var(--body,'DM Sans',Arial,sans-serif);display:inline-flex;align-items:center;justify-content:center;gap:28px;min-height:48px;padding:15px 23px;border:1px solid var(--ink,#173d41);border-radius:0;background:var(--ink,#173d41);color:var(--canvas,#f6f2e9);font-size:14px;font-weight:500;cursor:pointer;transition:background .25s,color .25s}.ds-button:hover{background:#26575a}.ds-button:active{filter:brightness(.94)}.ds-button:disabled{opacity:.5;cursor:not-allowed}.ds-control:focus-visible{outline:2px solid var(--accent,#ad5e42);outline-offset:5px}"
+    },
+    {
+      "name": "Outline button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action on the limestone canvas.",
+      "html": "<button class=\"ds-button ds-outline ds-control\">Manage your stay <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button{font-family:var(--body,'DM Sans',Arial,sans-serif);display:inline-flex;align-items:center;justify-content:center;gap:28px;min-height:48px;padding:15px 23px;border:1px solid var(--ink,#173d41);border-radius:0;background:var(--ink,#173d41);color:var(--canvas,#f6f2e9);font-size:14px;font-weight:500;cursor:pointer;transition:background .25s,color .25s}.ds-button:hover{background:#26575a}.ds-button:active{filter:brightness(.94)}.ds-button:disabled{opacity:.5;cursor:not-allowed}.ds-control:focus-visible{outline:2px solid var(--accent,#ad5e42);outline-offset:5px}.ds-outline{background:transparent;color:var(--ink,#173d41)}.ds-outline:hover{background:var(--sand,#dfd3be)}"
+    },
+    {
+      "name": "Labeled field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Visible label and square, readable form field.",
+      "html": "<label class=\"ds-field\">Guest name<input class=\"ds-control\" type=\"text\" value=\"Alex Rowan\" autocomplete=\"off\"></label>",
+      "css": ".ds-field{font-family:var(--body,'DM Sans',Arial,sans-serif);display:flex;flex-direction:column;gap:8px;color:var(--ink,#173d41);font-size:14px;font-weight:500}.ds-field input{font-family:var(--body,'DM Sans',Arial,sans-serif);font-size:16px;width:100%;min-height:48px;box-sizing:border-box;border:1px solid var(--line,#d4cec1);background:transparent;border-radius:0;padding:11px 13px;color:inherit;caret-color:var(--accent,#ad5e42)}.ds-field input:hover{border-color:var(--muted,#655f55)}.ds-field input[aria-invalid=true]{border-color:var(--error,#9c3429)}.ds-control:focus-visible{outline:2px solid var(--accent,#ad5e42);outline-offset:5px}"
+    },
+    {
+      "name": "Editorial navigation",
+      "kind": "nav",
+      "description": "Fine underline shows the current destination.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Hotel\"><a class=\"ds-control\" href=\"#house\">The house</a><a class=\"ds-control\" href=\"#rooms\" aria-current=\"page\">Our rooms</a><a class=\"ds-control\" href=\"#dining\">At the table</a></nav>",
+      "css": ".ds-nav{font-family:var(--body,'DM Sans',Arial,sans-serif);display:flex;gap:24px;flex-wrap:wrap;font-size:13px;color:var(--ink,#173d41)}.ds-nav a{color:inherit;text-decoration:none;padding:14px 0;position:relative}.ds-nav a:after{content:'';height:1px;background:currentColor;width:100%;position:absolute;bottom:9px;left:0;transform:scaleX(0);transform-origin:left;transition:transform .3s}.ds-nav a:hover:after,.ds-nav a[aria-current=page]:after{transform:scaleX(1)}.ds-control:focus-visible{outline:2px solid var(--accent,#ad5e42);outline-offset:5px}"
+    },
+    {
+      "name": "Gallery filter",
+      "kind": "chip",
+      "description": "Square category controls with explicit pressed state.",
+      "html": "<div class=\"ds-filters\"><button class=\"ds-control\" aria-pressed=\"true\">All</button><button class=\"ds-control\" aria-pressed=\"false\">Rooms</button><button class=\"ds-control\" aria-pressed=\"false\">The house</button></div>",
+      "css": ".ds-filters{display:flex;gap:10px;flex-wrap:wrap}.ds-filters button{font-family:var(--body,'DM Sans',Arial,sans-serif);padding:12px 23px;min-height:44px;border:1px solid var(--line,#d4cec1);border-radius:0;background:transparent;color:var(--ink,#173d41);font-size:14px;cursor:pointer}.ds-filters button:hover{border-color:var(--ink,#173d41)}.ds-filters button[aria-pressed=true]{background:var(--ink,#173d41);color:var(--canvas,#f6f2e9);border-color:var(--ink,#173d41)}.ds-control:focus-visible{outline:2px solid var(--accent,#ad5e42);outline-offset:5px}"
+    },
+    {
+      "name": "Accepted price summary",
+      "kind": "card",
+      "refersTo": "booking-summary",
+      "description": "A flat tonal surface keeps a simulated accepted quote clear.",
+      "html": "<section class=\"ds-summary\"><h3>Your accepted price.</h3><div><span>3 nights · Room subtotal</span><span>$570</span></div><div><span>Adult breakfast · 6 × $18</span><span>$108</span></div><div><span>Airport transfer</span><span>$65</span></div><p class=\"ds-total\"><span>Total USD</span><strong>$743</strong></p><small>All fictional taxes and fees included. No payment is taken.</small></section>",
+      "css": ".ds-summary{font-family:var(--body,'DM Sans',Arial,sans-serif);background:#eee7d9;color:var(--ink,#173d41);padding:25px;border:1px solid var(--line,#d4cec1);max-width:430px}.ds-summary h3{font-family:var(--display,'Bodoni Moda',Georgia,serif);font-size:28px;font-weight:400;margin:0 0 20px;line-height:1.2}.ds-summary>div{display:flex;justify-content:space-between;gap:18px;padding:16px 0;border-bottom:1px solid var(--line,#d4cec1);font-size:13px}.ds-summary>div>span:last-child{white-space:nowrap}.ds-total{display:flex;justify-content:space-between;align-items:center;gap:20px;margin:25px 0 12px}.ds-total strong{font-family:var(--display,'Bodoni Moda',Georgia,serif);font-size:36px;font-weight:400}.ds-summary small{display:block;font-size:11px;line-height:1.7;color:var(--muted,#655f55)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "An independent coastal journal",
+    "overview": "A small Mediterranean house is understood through light, limestone, planted outdoor spaces and the rhythm of a stay. The storefront gives photography and original editorial writing room to work. Booking and the front desk use the same identity with clearer density and practical controls.\n\nThe user's written direction is the visual authority. The final implementation and inspected screenshots are the evidence; no separately approved visual comp exists. This document replaces the provisional direction with the actual system as of 9 September 2026.",
+    "keyCharacteristics": [
+      "Large architectural photographs with meaningful room views and captions.",
+      "Bodoni display type, clear sans-serif controls, fine rules and square surfaces.",
+      "Varied editorial proportions, restrained motion and visible availability actions.",
+      "A consistent fictional hotel identity through review, confirmation and management."
+    ],
+    "rules": [
+      {
+        "name": "The Readable Surface Rule",
+        "body": "Check text against its actual surface. Automated contrast checks found no remaining violations on the eight tested surfaces; that result does not establish full accessibility conformance.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Keep the two-family relationship. Do not use display type for dense instructions or add an ornamental third font.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do preserve the relationship between a room's actual outlook, copy, imagery and caption.",
+      "Do show the current stay and full total before asking for confirmation.",
+      "Do keep the exact portfolio disclosure visible in the required contexts.",
+      "Do vary image scale and editorial density while keeping alignment and reading order clear.",
+      "Do verify both desktop and mobile screenshots with visibly painted images."
+    ],
+    "donts": [
+      "Don't add fake ratings, scarcity, testimonials, credentials or real-business claims.",
+      "Don't replace the coastal story with aggregator cards, ornamental gold, glass panels or a SaaS feature grid.",
+      "Don't hide prices, errors or booking actions to protect an aesthetic.",
+      "Don't add autoplay media, forced intros, custom cursors or scroll hijacking.",
+      "Don't claim complete accessibility or production reservation reliability from this demo's tests."
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape architectural hotel photograph, 1536x1024.\nInput image 1: REFERENCE IMAGE for the same fictional AUREL HOUSE property, architecture, materials and color; create a new photograph rather than reproducing the hero composition.\nProperty/style invariants: intimate fictional twelve-room Mediterranean house, warm limestone and warm-white limewash, flat roof coping, rectangular walnut-framed windows, walnut furniture, natural ivory linen, woven chairs, aged bronze, olive and rosemary, realistic travel-journal photography, warm natural directional daylight, tactile materials and subtle film grain. No people, text, logo, watermark, collage, UI, dramatic HDR or artificial showroom rendering.\nPrimary request: photograph the sleeping area of a modest 24m² Courtyard Room. Exactly one queen bed with an uninterrupted low solid walnut panel headboard, ivory rumpled linen, one muted olive lumbar cushion and a narrow olive throw at the foot. A small circular walnut bedside table and aged bronze wall reading lamp on each side. A simple rectangular walnut-framed window on the right shows a planted enclosed limestone courtyard with olive leaves and pale wall, no water. One woven chair and a small clay vase. Composition: eye-level three-quarter view from entry toward bed and courtyard window; honest compact proportions, coherent walls. Courtyard Room has NO balcony, NO terrace, NO sea view, NO daybed or sofa. No bathtub.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "courtyard-room-1",
+  "sourceSHA256": "46717b3fbe9650677ef74df7a4b6d88e9bc20994b4ac2ffab68ec64958f24ad7",
+  "referenceIds": [
+    "hero"
+  ],
+  "alt": "A queen bed with walnut headboard and olive linen beside the Courtyard Room’s planted courtyard window.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

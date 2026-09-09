@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: a single standalone landscape bathroom photograph for a hotel room gallery, 1536x1024.\nInput image 1: REFERENCE IMAGE for the adjoining room's exact warm limewash, pale limestone, walnut and aged bronze aesthetic. Photograph its private bathroom, a NEW space attached to the same fictional room. It must share the room's scale and material palette.\nBathroom invariants: genuine walk-in shower with pale stone floor, properly mounted aged bronze showerhead and controls, a fixed clear glass splash screen, believable plumbing and an open walk-in entry. Pale limestone, warm limewash, walnut details, ivory towels, simple unbranded handmade soap dish. Absolutely NO bathtub, tub rim, hot tub, spa pool or freestanding soaking vessel. No people, logos, text, watermark, UI, collage, glossy marble, gold trim or dramatic luxury staging. Natural architectural editorial photography with honest perspective, soft directional daylight and subtle film grain.\nPrimary request: the private bathroom of the 30m² Terrace Room. A tactile close three-quarter composition gives equal space to a single oval stone basin on a walnut-fronted vanity and the adjoining rectangular walk-in shower with aged bronze fittings behind a clear glass screen. The shower's limestone threshold is low and visibly an entry, not a bath. A muted clay hand towel hangs on a slim aged bronze rail, ivory towels folded below vanity. An unframed rectangular mirror reflects only a pale wall. Soft rosemary shadows from a small frosted rectangular window, no sea view, no bathtub and no outdoor shower. This image should be distinctly composed from the other room bathrooms, with warm walnut in foreground.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "terrace-room-3",
+  "sourceSHA256": "189ccc4912e2c6013762c103e9f94b7d28ab2faeed51f2d96b8e9351b4ed384b",
+  "referenceIds": [
+    "terrace-room-1"
+  ],
+  "alt": "The Terrace Room bathroom combines a walnut vanity, stone basin, clay hand towel and walk-in shower.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

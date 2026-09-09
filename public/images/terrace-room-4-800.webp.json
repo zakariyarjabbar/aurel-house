@@ -1,0 +1,12 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape room-outlook photograph, 1536x1024.\nInput images: REFERENCE IMAGE(S) of the actual room and its adjoining outlook. Preserve the exact room identity, walnut rectangular window/door style, limestone, furniture and view. Create a new photograph from a new camera position, not a montage or pasted landscape.\nStyle: natural architectural travel-journal photography, warm directional daylight, tactile limestone and warm limewash, walnut and linen, subtle film grain, believable perspective and true scale. No people, logos, text, watermark, UI, luxurious added amenities, domes, new boats or pools.\nPrimary request: stand on the actual small private ground-level terrace shown through the Terrace Room doorway and photograph its two woven walnut chairs and small round wood table closely, with rosemary and an olive tree in a clay planter against the same pale limestone privacy wall. One small ceramic bowl and clear water glass on the table. One edge of the rectangular walnut glazed doorway and a hint of ivory curtain appear at far left, linking the terrace to its room. The view is entirely the planted enclosure; show no sea, no distant horizon, no pool, no balcony railing, no additional seating. Same chair shapes and calm natural materials as the primary reference. Quiet dappled afternoon light and intimate terrace scale.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding room references, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "terrace-room-4",
+  "sourceSHA256": "4ed6b8cafe0e8651dc2b101a81f951b16192cb5f8accaa8fd6840c36e526bf8f",
+  "referenceIds": [
+    "terrace-room-1",
+    "terrace-room-2"
+  ],
+  "alt": "Two woven chairs and a small table sit among rosemary on the Terrace Room’s enclosed private terrace.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

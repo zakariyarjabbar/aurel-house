@@ -1,0 +1,12 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape room-outlook photograph, 1536x1024.\nInput images: REFERENCE IMAGE(S) of the actual room and its adjoining outlook. Preserve the exact room identity, walnut rectangular window/door style, limestone, furniture and view. Create a new photograph from a new camera position, not a montage or pasted landscape.\nStyle: natural architectural travel-journal photography, warm directional daylight, tactile limestone and warm limewash, walnut and linen, subtle film grain, believable perspective and true scale. No people, logos, text, watermark, UI, luxurious added amenities, domes, new boats or pools.\nPrimary request: photograph the actual rocky sea outlook from INSIDE the Sea Studio at its large rectangular walnut-framed window. Move camera close to the window at a gentle oblique angle; show the dark walnut frame along one side and the deep pale stone interior sill along the bottom, with only a narrow edge of the single linen daybed cushion below. The clear blue-green sea, pale limestone rocks and same flat-topped headland from the reference occupy most of the photograph. Authentic quiet daytime with slight natural glass reflection. Keep this visibly a window with an interior sill, NEVER a door or access to a private terrace. No balcony, deck, outdoor chairs, second window or new property amenities. The sea outlook is the subject, distinct from the bed/daybed interior views.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding room references, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "sea-studio-4",
+  "sourceSHA256": "32c5131b7fa697542e36c2d0a117c9aae468c04f01a65c55d412f914394999a0",
+  "referenceIds": [
+    "sea-studio-1",
+    "sea-studio-2"
+  ],
+  "alt": "The Sea Studio’s walnut window frames pale coastal rocks, blue-green water and a distant headland.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

@@ -1,0 +1,187 @@
+{
+  "clock": "2026-09-09T09:00:00.000Z",
+  "base": "http://127.0.0.1:3001",
+  "browser": "152.0.7977.83",
+  "flows": [
+    {
+      "name": "date validation, useful sample dates, refresh and back/forward preserve draft",
+      "passed": true
+    },
+    {
+      "name": "quote, decline without inventory effects, duplicate-click success and refresh",
+      "passed": true
+    },
+    {
+      "name": "calendar, print and same reservation in guest list and front desk",
+      "passed": true
+    },
+    {
+      "name": "rate edits synchronize tabs and preserve accepted quote",
+      "passed": true
+    },
+    {
+      "name": "maintenance rejects reservation overlap and changes valid unit availability",
+      "passed": true
+    },
+    {
+      "name": "invalid amendment preserves original; valid change accepts simulated difference",
+      "passed": true
+    },
+    {
+      "name": "cancel once, full simulated refund and no repeated cancellation control",
+      "passed": true
+    },
+    {
+      "name": "inquiries validate, save locally and appear alongside local message previews",
+      "passed": true
+    },
+    {
+      "name": "separate browser context has independent state and missing-booking explanation",
+      "passed": true
+    },
+    {
+      "name": "scoped reset preserves unrelated data and synchronizes tabs",
+      "passed": true
+    },
+    {
+      "name": "corrupt storage preserved with recovery and explicit temporary fallback",
+      "passed": true
+    },
+    {
+      "name": "disabled storage keeps browsing and temporary room selection usable",
+      "passed": true
+    },
+    {
+      "name": "mobile keyboard, date sheet, navigation and lightbox focus restoration",
+      "passed": true
+    },
+    {
+      "name": "26 exported routes direct navigation and refresh; genuine 404",
+      "passed": true
+    },
+    {
+      "name": "batched screenshots, image integrity, 360/390/768/1024/1440 widths and axe checks",
+      "passed": true
+    },
+    {
+      "name": "cold mobile performance under 4x CPU, 150ms RTT, 1.6Mbps down",
+      "passed": true
+    }
+  ],
+  "routes": [
+    "/",
+    "/rooms/",
+    "/rooms/courtyard-room/",
+    "/rooms/terrace-room/",
+    "/rooms/sea-studio/",
+    "/rooms/aurel-suite/",
+    "/the-house/",
+    "/dining/",
+    "/experiences/",
+    "/experiences/along-the-coast/",
+    "/experiences/clay-and-quiet/",
+    "/experiences/a-table-at-dusk/",
+    "/gallery/",
+    "/journal/",
+    "/journal/a-house-made-of-light/",
+    "/journal/breakfast-takes-its-time/",
+    "/journal/the-art-of-staying-put/",
+    "/contact/",
+    "/faq/",
+    "/policies/",
+    "/book/",
+    "/booking/confirmation/",
+    "/my-stay/",
+    "/my-stay/details/",
+    "/demo/",
+    "/admin/"
+  ],
+  "screenshots": [
+    "booking-desktop",
+    "booking-mobile",
+    "confirmation-desktop",
+    "confirmation-mobile",
+    "home-desktop",
+    "home-mobile",
+    "room-desktop",
+    "room-mobile",
+    "house-desktop",
+    "house-mobile",
+    "dining-desktop",
+    "dining-mobile",
+    "experiences-desktop",
+    "experiences-mobile",
+    "article-desktop",
+    "article-mobile",
+    "gallery-desktop",
+    "gallery-mobile",
+    "contact-desktop",
+    "contact-mobile",
+    "faq-desktop",
+    "faq-mobile",
+    "policies-desktop",
+    "policies-mobile",
+    "demo-desktop",
+    "demo-mobile",
+    "admin-desktop",
+    "admin-mobile"
+  ],
+  "accessibility": [
+    {
+      "page": "booking-review",
+      "violations": []
+    },
+    {
+      "page": "confirmation",
+      "violations": []
+    },
+    {
+      "page": "home",
+      "violations": []
+    },
+    {
+      "page": "room",
+      "violations": []
+    },
+    {
+      "page": "contact",
+      "violations": []
+    },
+    {
+      "page": "demo",
+      "violations": []
+    },
+    {
+      "page": "admin",
+      "violations": []
+    },
+    {
+      "page": "booking-rooms",
+      "violations": []
+    }
+  ],
+  "performance": [
+    {
+      "route": "/",
+      "fcp": 2320,
+      "lcp": 2320,
+      "cls": 0.002447137832427394,
+      "transferBytes": 1184078
+    },
+    {
+      "route": "/rooms/courtyard-room/",
+      "fcp": 2276,
+      "lcp": 2276,
+      "cls": 0.0012251683059463728,
+      "transferBytes": 1138910
+    },
+    {
+      "route": "/book/",
+      "fcp": 2256,
+      "lcp": 4256,
+      "cls": 0.00007284537720315217,
+      "transferBytes": 827582
+    }
+  ],
+  "errors": []
+}

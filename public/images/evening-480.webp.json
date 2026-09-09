@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape photographic asset for the AUREL HOUSE hotel website, 1536x1024.\nInput image 1: REFERENCE IMAGE of this same fictional hotel, its small scale, exact warm limestone architecture and adjacent rocky coast. Create a NEW scene or camera angle; do not copy the hero composition.\nStyle invariants: natural architectural travel-journal photography, quiet authentic Mediterranean atmosphere, warm directional sunlight, subtle film grain, honest physical textures. Warm limestone/limewash, walnut, ivory linen, woven chairs, aged bronze, olive/rosemary, modest scale. No people, text, logos, watermark, montage, UI, large resort, infinity pool or dramatic synthetic HDR.\nPrimary request: an intimate dining table for two at dusk on the same hotel's limestone sea terrace. A small rectangular walnut table with ivory linen runner, two handmade ceramic plates, clear water glasses, bread, a modest shared bowl of roasted vegetables and one lit candle in an aged bronze lantern. Exactly two woven dining chairs. The same limestone archway softly frames one side and the rocky blue-green coast is visible under a gentle blue dusk sky. Soft warm candlelight and a little residual dusk, realistic exposure, no spectacular sunset, no strings of fairy lights, no banquet or restaurant crowd. Camera at dining seated height, calm natural travel-journal composition. No people, alcohol labels, text or logos.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "evening",
+  "sourceSHA256": "3cb0c2bc3c72c6c69d8966eaa29112a5c8100d7cef13308ee9c53d77ae8a1267",
+  "referenceIds": [
+    "hero"
+  ],
+  "alt": "A small dinner table with ceramics and lantern light on the limestone terrace at dusk.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

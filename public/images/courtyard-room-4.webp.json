@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape room-outlook photograph, 1536x1024.\nInput images: REFERENCE IMAGE(S) of the actual room and its adjoining outlook. Preserve the exact room identity, walnut rectangular window/door style, limestone, furniture and view. Create a new photograph from a new camera position, not a montage or pasted landscape.\nStyle: natural architectural travel-journal photography, warm directional daylight, tactile limestone and warm limewash, walnut and linen, subtle film grain, believable perspective and true scale. No people, logos, text, watermark, UI, luxurious added amenities, domes, new boats or pools.\nPrimary request: photograph the actual enclosed courtyard outlook THROUGH the Courtyard Room's open rectangular walnut-framed casement window. Move the camera close to the interior window at an oblique angle. The substantial limestone sill and wooden frame fill the left and lower edge; one small handmade ceramic cup rests on the interior sill. Beyond the window, the same mature olive trunk, olive leaves, low rosemary and warm pale limestone enclosure wall seen in the primary room image fill the view. Sunlit leaf shadows cross the opposite wall. No outside seating or access door; this is a courtyard WINDOW, NOT a balcony or private terrace. Absolutely no sea, water, distant horizon or pool. Emphasize the quiet foliage outlook as a distinct standalone photograph.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding room references, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "courtyard-room-4",
+  "sourceSHA256": "e84535b41298162f6611ec5a60d8e56b335528ab3320eb31d635ace089971ad9",
+  "referenceIds": [
+    "courtyard-room-1"
+  ],
+  "alt": "Olive branches and a pale courtyard wall seen through the Courtyard Room’s walnut-framed window.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

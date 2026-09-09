@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape architectural hotel photograph, 1536x1024.\nInput image 1: REFERENCE IMAGE for the same fictional AUREL HOUSE property, architecture, materials and color; create a new photograph rather than reproducing the hero composition.\nProperty/style invariants: intimate fictional twelve-room Mediterranean house, warm limestone and warm-white limewash, flat roof coping, rectangular walnut-framed windows, walnut furniture, natural ivory linen, woven chairs, aged bronze, olive and rosemary, realistic travel-journal photography, warm natural directional daylight, tactile materials and subtle film grain. No people, text, logo, watermark, collage, UI, dramatic HDR or artificial showroom rendering.\nPrimary request: a close architectural courtyard scene from the same hotel in reference image 1, inside the planted side court away from sea. One mature olive tree grows from a square limestone-edged bed; its dappled shadow falls across worn limestone paving. Rounded limestone ground-floor archway and warm limewashed wall behind, a single simple walnut bench with linen cushion, rosemary in clay pots, one bronze lantern. The composition is intimate and asymmetric; photographed from seated eye level, early warm morning. No pool or sea in this inner court. This must look like a tucked-away corner of the reference property, not a new large palace.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "courtyard",
+  "sourceSHA256": "050e5af53c303d3560994f6035e8b8c5b70cf033e679feaea665ff44e5e4a4c9",
+  "referenceIds": [
+    "hero"
+  ],
+  "alt": "Olive shade falls across a quiet limestone courtyard with a walnut bench and rosemary pots.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+const browser = await chromium.launch({ channel: 'chrome', headless: true });
+const page = await browser.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 1 });
+await page.goto('http://127.0.0.1:3001/');
+await page.setContent(`<html><head><style>@font-face{font-family:Bodoni;src:url('http://127.0.0.1:3001/fonts/bodoni-moda.woff2')}@font-face{font-family:DM;src:url('http://127.0.0.1:3001/fonts/dm-sans.woff2')}*{box-sizing:border-box}body{margin:0;background:#173d41;color:#f6f2e9;font-family:DM}img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.shade{position:absolute;inset:0;background:linear-gradient(90deg,#102a30ba,#102a3000)}main{position:relative;padding:53px 58px}header{font:25px Bodoni;letter-spacing:5px}h1{font:78px/1.05 Bodoni;margin:98px 0 25px;letter-spacing:-2px}em{font-weight:400}p{font:15px/1.8 DM}footer{position:absolute;left:58px;right:58px;bottom:35px;font:10px DM;letter-spacing:2px;display:flex;justify-content:space-between}</style></head><body><img src="http://127.0.0.1:3001/images/hero.webp" alt=""><div class="shade"></div><main><header>AUREL HOUSE</header><h1>Twelve rooms.<br><em>Days without hurry.</em></h1><p>A small house by the sea.</p></main><footer><span>AN IMAGINED MEDITERRANEAN RETREAT</span><span>PORTFOLIO DEMONSTRATION</span></footer></body></html>`);
+await page.evaluate(() => { for (const image of document.images) image.src = image.src.replace(':3001', ':3001'); for (const style of document.querySelectorAll('style')) style.textContent = style.textContent.replaceAll(':3001', ':3001'); });
+await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map(image => image.decode())); });
+await page.screenshot({ path: 'public/images/social-preview.jpg', type: 'jpeg', quality: 92 });
+await browser.close();
+console.log('Created original typography composition using the inspected generated hero, local fonts, and browser rendering.');

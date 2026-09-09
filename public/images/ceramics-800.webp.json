@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape photographic asset for the AUREL HOUSE hotel website, 1536x1024.\nInput image 1: REFERENCE IMAGE of this same fictional hotel, its small scale, exact warm limestone architecture and adjacent rocky coast. Create a NEW scene or camera angle; do not copy the hero composition.\nStyle invariants: natural architectural travel-journal photography, quiet authentic Mediterranean atmosphere, warm directional sunlight, subtle film grain, honest physical textures. Warm limestone/limewash, walnut, ivory linen, woven chairs, aged bronze, olive/rosemary, modest scale. No people, text, logos, watermark, montage, UI, large resort, infinity pool or dramatic synthetic HDR.\nPrimary request: a close photograph of a quiet ceramic-making table in a shaded open workshop corner at this fictional house. A worn walnut worktable carries three small hand-shaped clay cups in different drying stages, one simple ceramic bowl, a small mound of clay, a folded linen cloth, and a few wooden shaping tools neatly and plausibly placed. A pale limestone wall and rectangular open walnut window with olive leaves beyond in the softly blurred background. Warm side light shows thumb marks and powdery clay texture. Natural documentary still life, a real modest handmade activity setting, no person, hands, potter's wheel, letters, branded tools or rows of merchandise.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "ceramics",
+  "sourceSHA256": "9639f1e69bba4cdfb57c93a2ebef37d3abffa980dd801b38751edd8a95bb1d92",
+  "referenceIds": [
+    "hero"
+  ],
+  "alt": "Unfinished clay cups, a bowl and wooden shaping tools on a linen-draped walnut worktable.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

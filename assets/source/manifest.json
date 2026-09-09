@@ -1,0 +1,738 @@
+{
+  "generatedAt": "2026-09-09",
+  "tool": "built-in image_gen.imagegen",
+  "fictional": true,
+  "assets": [
+    {
+      "id": "hero",
+      "sourcePath": "/private/tmp/aurel-assets/hero.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-c92673ce-7f2d-4f2d-a778-30867d307b62.png",
+      "prompt": "Use case: photorealistic-natural\nAsset type: standalone photographic hero for the AUREL HOUSE boutique hotel website.\nPrimary request: create a realistic cinematic landscape photograph of one fictional independent twelve-room Mediterranean retreat beside a rocky blue-green coast. Output a single wide landscape image, ideally 2304x1536 or larger.\nScene: a modest two-story house of warm limestone and chalky warm-white limewash with flat clay-colored roof coping, rectangular walnut-framed windows and rounded courtyard archways. A small simple rectangular turquoise swimming pool is in the courtyard, with an olive tree, rosemary, worn limestone paving, understated woven lounge chairs, aged bronze lanterns. The rocky coast and open sea sit beyond the house.\nComposition: photograph from inside a deeply shaded stone terrace archway. Dark warm stone and shadow fill the left third cleanly for a future white headline, while the sunlit pool, house and glimpse of sea are arranged across the middle and right. This is an intimate twelve-room retreat, never a grand resort. Camera roughly eye level, architectural travel-journal framing, genuine perspective, no excessive wide-angle distortion.\nLight/style: warm directional late-afternoon Mediterranean light, natural architectural editorial photography, tactile stone and limewash, subtle film grain, realistic water and foliage, restrained warm neutral palette with olive and blue-green sea.\nConstraints: preserve a coherent plausible small building and property, no people, no text, no logos, no watermarks, no UI, no montage, no tiled roofs, no arches for bedroom windows, no white Santorini domes, no oversized infinity pool. All image content is an AI-generated fictional property.",
+      "alt": "A shaded limestone arch opens onto Aurel House\u2019s small pool and rocky Mediterranean coast.",
+      "caption": "Late light at the pool terrace.",
+      "references": [],
+      "provenance": "AI-generated using the built-in image_gen.imagegen tool; fictional property, no stock source. Original PNG includes built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Natural plausible architecture and rectangular pool; strong dark left space for headline; no people, text or logos.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "hero.png",
+      "referenceSourcePaths": [],
+      "referenceRoles": [],
+      "bytes": 2994807,
+      "sha256": "ab336e103d8afba56f8cbf9f12ad3f8e039f86069dbc0bb534da7bab57f93bd5",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "courtyard-room-1",
+      "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape architectural hotel photograph, 1536x1024.\nInput image 1: REFERENCE IMAGE for the same fictional AUREL HOUSE property, architecture, materials and color; create a new photograph rather than reproducing the hero composition.\nProperty/style invariants: intimate fictional twelve-room Mediterranean house, warm limestone and warm-white limewash, flat roof coping, rectangular walnut-framed windows, walnut furniture, natural ivory linen, woven chairs, aged bronze, olive and rosemary, realistic travel-journal photography, warm natural directional daylight, tactile materials and subtle film grain. No people, text, logo, watermark, collage, UI, dramatic HDR or artificial showroom rendering.\nPrimary request: photograph the sleeping area of a modest 24m\u00b2 Courtyard Room. Exactly one queen bed with an uninterrupted low solid walnut panel headboard, ivory rumpled linen, one muted olive lumbar cushion and a narrow olive throw at the foot. A small circular walnut bedside table and aged bronze wall reading lamp on each side. A simple rectangular walnut-framed window on the right shows a planted enclosed limestone courtyard with olive leaves and pale wall, no water. One woven chair and a small clay vase. Composition: eye-level three-quarter view from entry toward bed and courtyard window; honest compact proportions, coherent walls. Courtyard Room has NO balcony, NO terrace, NO sea view, NO daybed or sofa. No bathtub.",
+      "alt": "A queen bed with walnut headboard and olive linen beside the Courtyard Room\u2019s planted courtyard window.",
+      "caption": "Courtyard Room \u2014 the sleeping space.",
+      "references": [
+        "hero"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/courtyard-room-1.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-dca76479-780e-4355-a1cf-82a40ac675b4.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: compact queen room, olive accents and solid walnut headboard; courtyard-only window, no balcony or sea.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "courtyard-room-1.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/hero.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "hero",
+          "role": "same fictional property architecture, coast, materials and photographic style"
+        }
+      ],
+      "bytes": 2744034,
+      "sha256": "46717b3fbe9650677ef74df7a4b6d88e9bc20994b4ac2ffab68ec64958f24ad7",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "terrace-room-1",
+      "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape architectural hotel photograph, 1536x1024.\nInput image 1: REFERENCE IMAGE for the same fictional AUREL HOUSE property, architecture, materials and color; create a new photograph rather than reproducing the hero composition.\nProperty/style invariants: intimate fictional twelve-room Mediterranean house, warm limestone and warm-white limewash, flat roof coping, rectangular walnut-framed windows, walnut furniture, natural ivory linen, woven chairs, aged bronze, olive and rosemary, realistic travel-journal photography, warm natural directional daylight, tactile materials and subtle film grain. No people, text, logo, watermark, collage, UI, dramatic HDR or artificial showroom rendering.\nPrimary request: photograph the sleeping area of a modest 30m\u00b2 Terrace Room. Exactly one king bed with a low continuous walnut panel headboard, ivory linen, two faded clay-colored cushions and a clay-colored woven throw at the foot. A round walnut bedside table and aged bronze lamp. At the right, rectangular walnut-framed glazed doors open at ground level onto the room's small private limestone terrace, with exactly two woven chairs and a little round table enclosed by rosemary, one olive planter and a pale limestone privacy wall. No sea visible. Composition eye-level three-quarter view including king bed and the real small planted terrace. No couch, no daybed, no balcony, no bath tub.",
+      "alt": "The Terrace Room\u2019s king bed with clay linen accents opens onto a private planted terrace.",
+      "caption": "Terrace Room \u2014 a quiet room opening to rosemary and shade.",
+      "references": [
+        "hero"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/terrace-room-1.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-8bd287dd-ee00-484a-a8d3-ea36648a26a4.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: king room with clay linen and ground-level planted terrace; two woven chairs visible, no sea.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "terrace-room-1.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/hero.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "hero",
+          "role": "same fictional property architecture, coast, materials and photographic style"
+        }
+      ],
+      "bytes": 2927107,
+      "sha256": "5c02ca68d989ec27b2348a67ba22e4d937dc4f58eeccbbd3fec9afe3b11762ef",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "sea-studio-1",
+      "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape architectural hotel photograph, 1536x1024.\nInput image 1: REFERENCE IMAGE for the same fictional AUREL HOUSE property, architecture, materials and color; create a new photograph rather than reproducing the hero composition.\nProperty/style invariants: intimate fictional twelve-room Mediterranean house, warm limestone and warm-white limewash, flat roof coping, rectangular walnut-framed windows, walnut furniture, natural ivory linen, woven chairs, aged bronze, olive and rosemary, realistic travel-journal photography, warm natural directional daylight, tactile materials and subtle film grain. No people, text, logo, watermark, collage, UI, dramatic HDR or artificial showroom rendering.\nPrimary request: photograph a 38m\u00b2 Sea Studio. Exactly one king bed with a wide horizontally slatted walnut headboard, warm ivory linen and one olive lumbar cushion. Exactly one simple single-width linen daybed, with one long seat cushion and a low walnut frame, sits near the large sea-facing rectangular walnut-framed window. The window is a true window with sill, NOT a balcony door, and looks over low rocky coastline and open blue-green Mediterranean water. Warm limewash walls and pale limestone floor, aged bronze bedside lights, simple ceramic bowl. Composition from entry across king bed to daybed and window, showing truthful studio proportions. NO private terrace, NO balcony, NO second bed, NO sofa bed, NO bath tub.",
+      "alt": "A king bed and single linen daybed in the Sea Studio, with blue-green water through a rectangular window.",
+      "caption": "Sea Studio \u2014 room for slow mornings by the window.",
+      "references": [
+        "hero"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/sea-studio-1.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-cd9c4fcc-b0e0-45b4-8bc2-6844dd4aa80d.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: one king bed plus exactly one linen daybed, sea-facing rectangular window with sill, no terrace.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "sea-studio-1.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/hero.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "hero",
+          "role": "same fictional property architecture, coast, materials and photographic style"
+        }
+      ],
+      "bytes": 2597943,
+      "sha256": "99169fb8d1223bbb865a7e1dbf607039a89baa449b77d461c8c10974009cc415",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "aurel-suite-1",
+      "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape architectural hotel photograph, 1536x1024.\nInput image 1: REFERENCE IMAGE for the same fictional AUREL HOUSE property, architecture, materials and color; create a new photograph rather than reproducing the hero composition.\nProperty/style invariants: intimate fictional twelve-room Mediterranean house, warm limestone and warm-white limewash, flat roof coping, rectangular walnut-framed windows, walnut furniture, natural ivory linen, woven chairs, aged bronze, olive and rosemary, realistic travel-journal photography, warm natural directional daylight, tactile materials and subtle film grain. No people, text, logo, watermark, collage, UI, dramatic HDR or artificial showroom rendering.\nPrimary request: photograph the king bedroom of a 52m\u00b2 Aurel Suite. Exactly one king bed with a tall plain walnut panel headboard, ivory linen, ochre woven lumbar cushion and folded warm sand throw. Paired compact walnut nightstands, aged bronze lamps. Pale limestone floor and warm limewash walls. A broad rectangular interior doorway at the right of the image leads to a physically SEPARATE lounge, partly visible with a sand-colored two-person sofa bed and small walnut coffee table; beyond it rectangular walnut-framed terrace doors reveal a private limestone sea-facing terrace. Do not merge the bed and lounge into one open-plan studio. Camera three-quarter from bedroom corner, relaxed luxury with honest modest scale. No tub, no extra beds, no vaulted domes.",
+      "alt": "The Aurel Suite\u2019s king bedroom, with a doorway to its separate lounge and sea-facing terrace.",
+      "caption": "Aurel Suite \u2014 a bedroom with room beyond.",
+      "references": [
+        "hero"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/aurel-suite-1.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-5d267d7c-4126-4127-a1a7-74a9dfcbfa7b.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: king bedroom, physically separate lounge through doorway with sofa, private sea terrace visible beyond.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "aurel-suite-1.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/hero.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "hero",
+          "role": "same fictional property architecture, coast, materials and photographic style"
+        }
+      ],
+      "bytes": 2753607,
+      "sha256": "b4b7715c99f2c2769a9e26b44ca486ec3447415314c22446dac6c2afebe3e6d5",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "courtyard",
+      "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape architectural hotel photograph, 1536x1024.\nInput image 1: REFERENCE IMAGE for the same fictional AUREL HOUSE property, architecture, materials and color; create a new photograph rather than reproducing the hero composition.\nProperty/style invariants: intimate fictional twelve-room Mediterranean house, warm limestone and warm-white limewash, flat roof coping, rectangular walnut-framed windows, walnut furniture, natural ivory linen, woven chairs, aged bronze, olive and rosemary, realistic travel-journal photography, warm natural directional daylight, tactile materials and subtle film grain. No people, text, logo, watermark, collage, UI, dramatic HDR or artificial showroom rendering.\nPrimary request: a close architectural courtyard scene from the same hotel in reference image 1, inside the planted side court away from sea. One mature olive tree grows from a square limestone-edged bed; its dappled shadow falls across worn limestone paving. Rounded limestone ground-floor archway and warm limewashed wall behind, a single simple walnut bench with linen cushion, rosemary in clay pots, one bronze lantern. The composition is intimate and asymmetric; photographed from seated eye level, early warm morning. No pool or sea in this inner court. This must look like a tucked-away corner of the reference property, not a new large palace.",
+      "alt": "Olive shade falls across a quiet limestone courtyard with a walnut bench and rosemary pots.",
+      "caption": "The olive courtyard, before the day gets warm.",
+      "references": [
+        "hero"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/courtyard.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-dfb1364e-9cc8-42f3-998c-96abd9319a2c.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: olive tree, limestone paving and archway, walnut bench and rosemary; matching property materials, no people/text.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "courtyard.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/hero.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "hero",
+          "role": "same fictional property architecture, coast, materials and photographic style"
+        }
+      ],
+      "bytes": 3357486,
+      "sha256": "050e5af53c303d3560994f6035e8b8c5b70cf033e679feaea665ff44e5e4a4c9",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "pool",
+      "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape photographic asset for the AUREL HOUSE hotel website, 1536x1024.\nInput image 1: REFERENCE IMAGE of this same fictional hotel, its small scale, exact warm limestone architecture and adjacent rocky coast. Create a NEW scene or camera angle; do not copy the hero composition.\nStyle invariants: natural architectural travel-journal photography, quiet authentic Mediterranean atmosphere, warm directional sunlight, subtle film grain, honest physical textures. Warm limestone/limewash, walnut, ivory linen, woven chairs, aged bronze, olive/rosemary, modest scale. No people, text, logos, watermark, montage, UI, large resort, infinity pool or dramatic synthetic HDR.\nPrimary request: view the same small simple rectangular turquoise pool from the reference photograph, now close to its far limestone edge. Low eye-level camera looks diagonally along the turquoise water toward the hotel's olive tree and limestone ground-floor archway, with a narrow glimpse of the same rocky blue-green sea to the right. Include the pool's real stone coping and worn paving in foreground, two understated walnut loungers with ivory linen cushions on one side. Calm sunlit water ripples and realistic reflections. Preserve the reference house's two-story warm limestone, flat clay-colored roof coping and rectangular walnut-framed windows. The pool remains intimate and rectangular, not a large resort pool.",
+      "alt": "The small rectangular pool reflects limestone walls and olive branches beside the sea.",
+      "caption": "A short swim, a long afternoon.",
+      "references": [
+        "hero"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/pool.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-a935f238-100c-42a0-bfd4-5a88c43fc857.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: separate low pool-edge composition; rectangular turquoise pool, limestone house/archway and matching headland, two loungers. No distortion or prohibited elements.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "pool.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/hero.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "hero",
+          "role": "same fictional property architecture, coast, materials and photographic style"
+        }
+      ],
+      "bytes": 3101922,
+      "sha256": "62b43d0bbb05adbc4bfe57eb09e7b4d4a842d7246f11f472ca5b02f1a319f363",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "dining",
+      "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape photographic asset for the AUREL HOUSE hotel website, 1536x1024.\nInput image 1: REFERENCE IMAGE of this same fictional hotel, its small scale, exact warm limestone architecture and adjacent rocky coast. Create a NEW scene or camera angle; do not copy the hero composition.\nStyle invariants: natural architectural travel-journal photography, quiet authentic Mediterranean atmosphere, warm directional sunlight, subtle film grain, honest physical textures. Warm limestone/limewash, walnut, ivory linen, woven chairs, aged bronze, olive/rosemary, modest scale. No people, text, logos, watermark, montage, UI, large resort, infinity pool or dramatic synthetic HDR.\nPrimary request: close natural breakfast-table photograph on the hotel's shaded stone terrace, loosely composed as a travel journal. A walnut dining table for two with an ivory linen runner, two handmade off-white ceramic plates and cups, a small wooden board with sliced rustic bread, a modest bowl of ripe figs and apricots, a small bowl of yogurt, olive oil and water glasses. Keep the food modest and plausible, not a banquet. Dappled olive light; woven chairs and warm limestone archway in soft background. Slightly elevated three-quarter camera angle with crisp tactile food and linen detail, gentle shallow depth of field. No labels, menus, writing, people or alcohol.",
+      "alt": "Handmade ceramics, bread, yogurt and seasonal fruit laid for breakfast in the shade.",
+      "caption": "Breakfast begins with something simple.",
+      "references": [
+        "hero"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/dining.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-cfff4f42-d74d-42d7-b6d9-e69f462b7386.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: breakfast table with natural ceramics, bread, figs/apricots, yogurt and water; same stone/olive/sea setting, realistic modest portions.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "dining.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/hero.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "hero",
+          "role": "same fictional property architecture, coast, materials and photographic style"
+        }
+      ],
+      "bytes": 2916862,
+      "sha256": "ddcac8faee157fe74aa2fdebe02cea0dfef85409f0fcdc33420bbd1057d252da",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "coast",
+      "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape photographic asset for the AUREL HOUSE hotel website, 1536x1024.\nInput image 1: REFERENCE IMAGE of this same fictional hotel, its small scale, exact warm limestone architecture and adjacent rocky coast. Create a NEW scene or camera angle; do not copy the hero composition.\nStyle invariants: natural architectural travel-journal photography, quiet authentic Mediterranean atmosphere, warm directional sunlight, subtle film grain, honest physical textures. Warm limestone/limewash, walnut, ivory linen, woven chairs, aged bronze, olive/rosemary, modest scale. No people, text, logos, watermark, montage, UI, large resort, infinity pool or dramatic synthetic HDR.\nPrimary request: a quiet view along the same rocky Mediterranean coastline visible from the reference hotel. A narrow natural limestone walking path curves through low rosemary and olive scrub beside pale rugged rocks and clear blue-green water; a low flat-topped headland in the far distance matches the reference coastline. Camera at walking eye level, no buildings necessary, natural late morning light, intimate coastal landscape with real texture and measured depth. Clearly a rough informal coastal path rather than a broad paved road. No people, beach clubs, docks, boats, signage, safety/accessibility claims, tropical palms or invented landmarks.",
+      "alt": "A rough limestone path follows rosemary and pale rocks beside blue-green coastal water.",
+      "caption": "The path follows the edge of the sea.",
+      "references": [
+        "hero"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/coast.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-14ad3130-2832-4aa7-af99-2184e792b8c2.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct rugged footpath and limestone coastal geology, matching flat-topped headland and blue-green water; no misleading paved/accessibility view.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "coast.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/hero.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "hero",
+          "role": "same fictional property architecture, coast, materials and photographic style"
+        }
+      ],
+      "bytes": 3643335,
+      "sha256": "1b5b0f867ea305efd5905fbd9719b3aab84e7a88b741405b747d19e76664a23a",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "ceramics",
+      "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape photographic asset for the AUREL HOUSE hotel website, 1536x1024.\nInput image 1: REFERENCE IMAGE of this same fictional hotel, its small scale, exact warm limestone architecture and adjacent rocky coast. Create a NEW scene or camera angle; do not copy the hero composition.\nStyle invariants: natural architectural travel-journal photography, quiet authentic Mediterranean atmosphere, warm directional sunlight, subtle film grain, honest physical textures. Warm limestone/limewash, walnut, ivory linen, woven chairs, aged bronze, olive/rosemary, modest scale. No people, text, logos, watermark, montage, UI, large resort, infinity pool or dramatic synthetic HDR.\nPrimary request: a close photograph of a quiet ceramic-making table in a shaded open workshop corner at this fictional house. A worn walnut worktable carries three small hand-shaped clay cups in different drying stages, one simple ceramic bowl, a small mound of clay, a folded linen cloth, and a few wooden shaping tools neatly and plausibly placed. A pale limestone wall and rectangular open walnut window with olive leaves beyond in the softly blurred background. Warm side light shows thumb marks and powdery clay texture. Natural documentary still life, a real modest handmade activity setting, no person, hands, potter's wheel, letters, branded tools or rows of merchandise.",
+      "alt": "Unfinished clay cups, a bowl and wooden shaping tools on a linen-draped walnut worktable.",
+      "caption": "An afternoon shaped by hand.",
+      "references": [
+        "hero"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/ceramics.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-da13bf72-6e47-411e-baef-a376b7b916b9.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct clay-making still life, three unfinished cups, wooden shaping tools and textured worktable; same limestone window/coast, no hands/logos/text.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "ceramics.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/hero.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "hero",
+          "role": "same fictional property architecture, coast, materials and photographic style"
+        }
+      ],
+      "bytes": 2556732,
+      "sha256": "9639f1e69bba4cdfb57c93a2ebef37d3abffa980dd801b38751edd8a95bb1d92",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "evening",
+      "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape photographic asset for the AUREL HOUSE hotel website, 1536x1024.\nInput image 1: REFERENCE IMAGE of this same fictional hotel, its small scale, exact warm limestone architecture and adjacent rocky coast. Create a NEW scene or camera angle; do not copy the hero composition.\nStyle invariants: natural architectural travel-journal photography, quiet authentic Mediterranean atmosphere, warm directional sunlight, subtle film grain, honest physical textures. Warm limestone/limewash, walnut, ivory linen, woven chairs, aged bronze, olive/rosemary, modest scale. No people, text, logos, watermark, montage, UI, large resort, infinity pool or dramatic synthetic HDR.\nPrimary request: an intimate dining table for two at dusk on the same hotel's limestone sea terrace. A small rectangular walnut table with ivory linen runner, two handmade ceramic plates, clear water glasses, bread, a modest shared bowl of roasted vegetables and one lit candle in an aged bronze lantern. Exactly two woven dining chairs. The same limestone archway softly frames one side and the rocky blue-green coast is visible under a gentle blue dusk sky. Soft warm candlelight and a little residual dusk, realistic exposure, no spectacular sunset, no strings of fairy lights, no banquet or restaurant crowd. Camera at dining seated height, calm natural travel-journal composition. No people, alcohol labels, text or logos.",
+      "alt": "A small dinner table with ceramics and lantern light on the limestone terrace at dusk.",
+      "caption": "The table stays a little longer.",
+      "references": [
+        "hero"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/evening.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-48661ef3-f759-4671-930b-683c496ab672.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct dusk table for two with ceramic settings, bread, vegetables and lantern; two woven chairs, stone arch and same coastline.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "evening.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/hero.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "hero",
+          "role": "same fictional property architecture, coast, materials and photographic style"
+        }
+      ],
+      "bytes": 2696047,
+      "sha256": "3cb0c2bc3c72c6c69d8966eaa29112a5c8100d7cef13308ee9c53d77ae8a1267",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "courtyard-room-2",
+      "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape photograph, 1536x1024, for a hotel room gallery.\nInput image 1: REFERENCE IMAGE showing the exact room to photograph from a new viewpoint. Keep its furniture identity, headboard, linens, lamps, window/door shape, dimensions, materials and outlook consistent. This is a new camera position in the SAME room, not another hotel room, not a crop or montage.\nStyle: natural architectural travel-journal photography, warm directional daylight, warm limestone and limewash, walnut, ivory linen, woven texture and aged bronze; realistic perspective and subtle film grain. No people, logos, text, watermark, UI, new luxury amenities or tub.\nPrimary request: a new photograph from beside the courtyard window toward the reading corner and queen bed of this same compact 24m\u00b2 Courtyard Room. The woven walnut reading chair is prominent in the foreground, its arm and woven seat tactile and crisp, with a small ceramic cup on a circular walnut side table. Beyond it, show a side/diagonal view of the same queen bed with continuous solid walnut headboard, olive lumbar cushion, olive throw and aged bronze wall lamps. Include a portion of the open rectangular window with olive foliage and the enclosed limestone court only. Make this a meaningfully different intimate reading-corner composition with some of the bed intentionally out of frame. No sea, balcony, terrace, couch or daybed.",
+      "alt": "A woven reading chair and small ceramic cup beside the Courtyard Room\u2019s olive-accented queen bed.",
+      "caption": "Courtyard Room \u2014 a corner for a book.",
+      "references": [
+        "courtyard-room-1"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/courtyard-room-2.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-35001433-bda2-4810-aacd-2c9d8d01a3f4.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct reading-corner composition; same olive linens, solid walnut headboard, bronze wall lamps and courtyard window; no sea/terrace.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "courtyard-room-2.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/courtyard-room-1.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "courtyard-room-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 2568188,
+      "sha256": "1c5b4c5965b07a65b8084916a37e6241613381fb26635a870c42f6cb556c63a7",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "terrace-room-2",
+      "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape photograph, 1536x1024, for a hotel room gallery.\nInput image 1: REFERENCE IMAGE showing the exact room to photograph from a new viewpoint. Keep its furniture identity, headboard, linens, lamps, window/door shape, dimensions, materials and outlook consistent. This is a new camera position in the SAME room, not another hotel room, not a crop or montage.\nStyle: natural architectural travel-journal photography, warm directional daylight, warm limestone and limewash, walnut, ivory linen, woven texture and aged bronze; realistic perspective and subtle film grain. No people, logos, text, watermark, UI, new luxury amenities or tub.\nPrimary request: photograph this same 30m\u00b2 Terrace Room from just outside its open walnut-framed terrace doorway looking inward at the king sleeping area. This is a meaningfully different reverse viewpoint from the primary reference. Preserve the king bed's continuous walnut panel headboard, two faded clay pillows, clay throw, ivory linen, round walnut nightstand and aged bronze dome lamp; the same quiet neutral framed artwork is over the headboard. Show a sliver of rosemary and one woven terrace chair in near foreground to establish ground-level terrace entry, and the bed within the warm limewashed room. Real compact dimensions, natural doorway framing, no sea view, no balcony, sofa or daybed.",
+      "alt": "A view from the planted terrace into the Terrace Room\u2019s king sleeping area.",
+      "caption": "Terrace Room \u2014 the doors open to the garden.",
+      "references": [
+        "terrace-room-1"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/terrace-room-2.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-8f162025-9998-44ce-915d-88d01bf4f569.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct reverse view from terrace looking inward; matching clay cushions/throw and walnut/bronze bed details, no sea.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "terrace-room-2.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/terrace-room-1.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "terrace-room-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 2475456,
+      "sha256": "c97281a2e7b61ffbf0b4f962ddaccd59c2c51760b19ef90655a14f47893b051e",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "sea-studio-2",
+      "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape photograph, 1536x1024, for a hotel room gallery.\nInput image 1: REFERENCE IMAGE showing the exact room to photograph from a new viewpoint. Keep its furniture identity, headboard, linens, lamps, window/door shape, dimensions, materials and outlook consistent. This is a new camera position in the SAME room, not another hotel room, not a crop or montage.\nStyle: natural architectural travel-journal photography, warm directional daylight, warm limestone and limewash, walnut, ivory linen, woven texture and aged bronze; realistic perspective and subtle film grain. No people, logos, text, watermark, UI, new luxury amenities or tub.\nPrimary request: new close three-quarter photograph focused on this same Sea Studio's single-width ivory linen daybed on its low walnut frame, beneath the same large rectangular sea-facing window with a true sill. Exactly one daybed; preserve its cylindrical ivory bolster at one end and olive square cushion. A small simple walnut writing desk and woven chair from the reference are at the side. Show just the foot edge of the same king bed in the foreground, not a second whole bed. The rocky blue-green sea and flat-topped headland remain through the window; the window is not a glazed terrace door. Make the quiet daybed/window area the subject, a clearly distinct camera position from reference. No private terrace or balcony, no extra sleeping furniture.",
+      "alt": "The Sea Studio\u2019s single linen daybed and walnut writing desk beside the sea-facing window.",
+      "caption": "Sea Studio \u2014 the window seat, made for staying.",
+      "references": [
+        "sea-studio-1"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/sea-studio-2.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-af7041cc-4a37-4014-8c98-53df54c37b4e.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct daybed/window focus with bed foot and writing desk; same bolster, olive cushion and true sea-facing window, no terrace.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "sea-studio-2.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/sea-studio-1.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "sea-studio-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 2374158,
+      "sha256": "5efa643dfd794e7f2f94aa88a51efeee67f29228674b7fa61dcc76741b03e4f6",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "aurel-suite-2",
+      "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape photograph, 1536x1024, for a hotel room gallery.\nInput image 1: REFERENCE IMAGE showing the exact room to photograph from a new viewpoint. Keep its furniture identity, headboard, linens, lamps, window/door shape, dimensions, materials and outlook consistent. This is a new camera position in the SAME room, not another hotel room, not a crop or montage.\nStyle: natural architectural travel-journal photography, warm directional daylight, warm limestone and limewash, walnut, ivory linen, woven texture and aged bronze; realistic perspective and subtle film grain. No people, logos, text, watermark, UI, new luxury amenities or tub.\nPrimary request: photograph the Aurel Suite's SEPARATE lounge, moving the camera through the bedroom doorway seen in the reference and into the lounge. The same modest two-person sand/ivory linen sofa bed sits against the left limewash wall with ochre and ivory cushions and a slender bronze floor lamp with ivory shade. A low rectangular walnut coffee table with small clay vase is on a simple woven rug over limestone paving. Broad rectangular walnut-framed glazed doors lead to the private limestone terrace and the same rocky blue-green sea beyond. An edge of the doorway back toward the king bedroom may be visible at far left, but do not place the bed in this lounge. Clear three-quarter composition of the sofa, table and terrace doors, no grand resort scale.",
+      "alt": "A separate lounge with a two-person linen sofa bed and doors to the Aurel Suite\u2019s sea terrace.",
+      "caption": "Aurel Suite \u2014 a room of its own for the afternoon.",
+      "references": [
+        "aurel-suite-1"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/aurel-suite-2.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-db2cb44e-0c88-42c3-8a73-4610b370fd82.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: separate lounge focus with two-person sofa bed, walnut coffee table, bronze lamp and private sea-facing terrace doors; no extra bed.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "aurel-suite-2.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/aurel-suite-1.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "aurel-suite-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 2565605,
+      "sha256": "c6cbd00cc2a44c791139171eca02151a5c3cca2f637ecc23a1a4b6474eb822c7",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "courtyard-room-3",
+      "prompt": "Use case: photorealistic-natural\nAsset type: a single standalone landscape bathroom photograph for a hotel room gallery, 1536x1024.\nInput image 1: REFERENCE IMAGE for the adjoining room's exact warm limewash, pale limestone, walnut and aged bronze aesthetic. Photograph its private bathroom, a NEW space attached to the same fictional room. It must share the room's scale and material palette.\nBathroom invariants: genuine walk-in shower with pale stone floor, properly mounted aged bronze showerhead and controls, a fixed clear glass splash screen, believable plumbing and an open walk-in entry. Pale limestone, warm limewash, walnut details, ivory towels, simple unbranded handmade soap dish. Absolutely NO bathtub, tub rim, hot tub, spa pool or freestanding soaking vessel. No people, logos, text, watermark, UI, collage, glossy marble, gold trim or dramatic luxury staging. Natural architectural editorial photography with honest perspective, soft directional daylight and subtle film grain.\nPrimary request: the compact private bathroom of the 24m\u00b2 Courtyard Room. Three-quarter view from doorway, single small rectangular limestone basin in a thick stone counter on the left with a walnut shelf below, one aged bronze wall tap, a small rectangular bronze-framed mirror. A slim open-entry walk-in shower with clear glass screen occupies the back right, matching stone walls, bronze showerhead, a shallow niche with one unlabelled bottle. A folded olive hand towel and ivory bath towel. Gentle daylight enters from a high narrow rectangular frosted courtyard window. Keep the bathroom modest and practical; no sea view and no exterior terrace door.",
+      "alt": "A compact limestone bathroom with a single basin, bronze fittings and a walk-in shower in the Courtyard Room.",
+      "caption": "Courtyard Room \u2014 pale stone and warm bronze.",
+      "references": [
+        "courtyard-room-1"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/courtyard-room-3.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-ac50298d-5d0f-44a5-a193-0008a0b67492.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: compact single-basin stone bathroom, bronze tap/shower, clear screen and open walk-in entry; high frosted courtyard window, olive towel, no tub.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "courtyard-room-3.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/courtyard-room-1.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "courtyard-room-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 2640607,
+      "sha256": "1b213c9a1100506b0f606c4d62ad68f0c83acf2b3ec5d88b2a48bf03aedb92d8",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "terrace-room-3",
+      "prompt": "Use case: photorealistic-natural\nAsset type: a single standalone landscape bathroom photograph for a hotel room gallery, 1536x1024.\nInput image 1: REFERENCE IMAGE for the adjoining room's exact warm limewash, pale limestone, walnut and aged bronze aesthetic. Photograph its private bathroom, a NEW space attached to the same fictional room. It must share the room's scale and material palette.\nBathroom invariants: genuine walk-in shower with pale stone floor, properly mounted aged bronze showerhead and controls, a fixed clear glass splash screen, believable plumbing and an open walk-in entry. Pale limestone, warm limewash, walnut details, ivory towels, simple unbranded handmade soap dish. Absolutely NO bathtub, tub rim, hot tub, spa pool or freestanding soaking vessel. No people, logos, text, watermark, UI, collage, glossy marble, gold trim or dramatic luxury staging. Natural architectural editorial photography with honest perspective, soft directional daylight and subtle film grain.\nPrimary request: the private bathroom of the 30m\u00b2 Terrace Room. A tactile close three-quarter composition gives equal space to a single oval stone basin on a walnut-fronted vanity and the adjoining rectangular walk-in shower with aged bronze fittings behind a clear glass screen. The shower's limestone threshold is low and visibly an entry, not a bath. A muted clay hand towel hangs on a slim aged bronze rail, ivory towels folded below vanity. An unframed rectangular mirror reflects only a pale wall. Soft rosemary shadows from a small frosted rectangular window, no sea view, no bathtub and no outdoor shower. This image should be distinctly composed from the other room bathrooms, with warm walnut in foreground.",
+      "alt": "The Terrace Room bathroom combines a walnut vanity, stone basin, clay hand towel and walk-in shower.",
+      "caption": "Terrace Room \u2014 a quiet material palette.",
+      "references": [
+        "terrace-room-1"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/terrace-room-3.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-ba67f390-9a27-425d-8c5a-d439f2384f6b.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: oval stone basin over walnut vanity, clay towel and bronze fittings; open walk-in shower behind glass with a raised threshold, no tub. Do not infer step-free accessibility.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "terrace-room-3.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/terrace-room-1.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "terrace-room-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 2572029,
+      "sha256": "189ccc4912e2c6013762c103e9f94b7d28ab2faeed51f2d96b8e9351b4ed384b",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "sea-studio-3",
+      "prompt": "Use case: photorealistic-natural\nAsset type: a single standalone landscape bathroom photograph for a hotel room gallery, 1536x1024.\nInput image 1: REFERENCE IMAGE for the adjoining room's exact warm limewash, pale limestone, walnut and aged bronze aesthetic. Photograph its private bathroom, a NEW space attached to the same fictional room. It must share the room's scale and material palette.\nBathroom invariants: genuine walk-in shower with pale stone floor, properly mounted aged bronze showerhead and controls, a fixed clear glass splash screen, believable plumbing and an open walk-in entry. Pale limestone, warm limewash, walnut details, ivory towels, simple unbranded handmade soap dish. Absolutely NO bathtub, tub rim, hot tub, spa pool or freestanding soaking vessel. No people, logos, text, watermark, UI, collage, glossy marble, gold trim or dramatic luxury staging. Natural architectural editorial photography with honest perspective, soft directional daylight and subtle film grain.\nPrimary request: a close architectural detail inside the Sea Studio's private walk-in shower. The subject is a properly mounted aged bronze overhead rainfall showerhead and separate hand shower against warm pale limestone slabs, a neat recessed stone niche with two small unlabelled ceramic bottles and an ivory washcloth. The clear glass screen edge and the pale stone shower floor with a discreet linear drain are visible, proving this is a walk-in shower. At one edge include a small portion of an adjacent walnut vanity with a single stone basin. Natural light, clean realistic hardware and restrained photographic composition. No bathtub, sea doorway, terrace, extra basin or spa.",
+      "alt": "Aged bronze shower fittings, a recessed stone shelf and a clear screen in the Sea Studio\u2019s walk-in shower.",
+      "caption": "Sea Studio \u2014 stone, water and light.",
+      "references": [
+        "sea-studio-1"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/sea-studio-3.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-e9cf7147-0358-4c6a-988e-682bdca7ce5c.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct walk-in shower detail with bronze rainfall and hand shower, glass screen, stone niche and linear floor drain; adjacent single-basin walnut vanity, no tub.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "sea-studio-3.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/sea-studio-1.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "sea-studio-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 2702529,
+      "sha256": "377924bcb85e7cdf0060af82c2224660fb6d61a08e678abc08d1f01d6e4e3005",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "aurel-suite-3",
+      "prompt": "Use case: photorealistic-natural\nAsset type: a single standalone landscape bathroom photograph for a hotel room gallery, 1536x1024.\nInput image 1: REFERENCE IMAGE for the adjoining room's exact warm limewash, pale limestone, walnut and aged bronze aesthetic. Photograph its private bathroom, a NEW space attached to the same fictional room. It must share the room's scale and material palette.\nBathroom invariants: genuine walk-in shower with pale stone floor, properly mounted aged bronze showerhead and controls, a fixed clear glass splash screen, believable plumbing and an open walk-in entry. Pale limestone, warm limewash, walnut details, ivory towels, simple unbranded handmade soap dish. Absolutely NO bathtub, tub rim, hot tub, spa pool or freestanding soaking vessel. No people, logos, text, watermark, UI, collage, glossy marble, gold trim or dramatic luxury staging. Natural architectural editorial photography with honest perspective, soft directional daylight and subtle film grain.\nPrimary request: the Aurel Suite private bathroom, slightly more generous but still modest. Three-quarter architectural view with a broad walnut-fronted vanity and two simple integrated limestone basins, each with aged bronze wall tap, a wide rectangular mirror, neatly folded ivory towels and a small ochre hand towel. To the right, clearly visible separate open-entry walk-in shower with pale limestone wall and floor, clear glass screen, one bronze rainfall showerhead and a recessed stone shelf. Gentle light from a small high rectangular window. Respect believable bathroom dimensions within a total 52m\u00b2 suite; no palace scale, bathtub, shower seating or spa amenities.",
+      "alt": "A limestone vanity with twin basins and a separate walk-in shower in the Aurel Suite bathroom.",
+      "caption": "Aurel Suite \u2014 the day begins in pale stone.",
+      "references": [
+        "aurel-suite-1"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/aurel-suite-3.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-6cbd3e9a-df6c-4980-8c5f-740d20031df4.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: twin integrated stone basins and walnut vanity with ochre towel; clear glass screen and open-entry walk-in shower, no tub.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "aurel-suite-3.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/aurel-suite-1.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "aurel-suite-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 2738598,
+      "sha256": "5f823e05961474cc5a5e892843004b85b3f2ef4b12ea4ebe500d166d4c47157e",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "courtyard-room-4",
+      "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape room-outlook photograph, 1536x1024.\nInput images: REFERENCE IMAGE(S) of the actual room and its adjoining outlook. Preserve the exact room identity, walnut rectangular window/door style, limestone, furniture and view. Create a new photograph from a new camera position, not a montage or pasted landscape.\nStyle: natural architectural travel-journal photography, warm directional daylight, tactile limestone and warm limewash, walnut and linen, subtle film grain, believable perspective and true scale. No people, logos, text, watermark, UI, luxurious added amenities, domes, new boats or pools.\nPrimary request: photograph the actual enclosed courtyard outlook THROUGH the Courtyard Room's open rectangular walnut-framed casement window. Move the camera close to the interior window at an oblique angle. The substantial limestone sill and wooden frame fill the left and lower edge; one small handmade ceramic cup rests on the interior sill. Beyond the window, the same mature olive trunk, olive leaves, low rosemary and warm pale limestone enclosure wall seen in the primary room image fill the view. Sunlit leaf shadows cross the opposite wall. No outside seating or access door; this is a courtyard WINDOW, NOT a balcony or private terrace. Absolutely no sea, water, distant horizon or pool. Emphasize the quiet foliage outlook as a distinct standalone photograph.",
+      "alt": "Olive branches and a pale courtyard wall seen through the Courtyard Room\u2019s walnut-framed window.",
+      "caption": "Courtyard Room \u2014 the view is green and enclosed.",
+      "references": [
+        "courtyard-room-1"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/courtyard-room-4.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-06370edd-4774-4b45-989a-dbd115dbb75b.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding room references, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct close outlook through walnut casement and stone sill, olive/rosemary and enclosed courtyard wall only; no sea, pool, terrace or balcony.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "courtyard-room-4.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/courtyard-room-1.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "courtyard-room-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 3045303,
+      "sha256": "e84535b41298162f6611ec5a60d8e56b335528ab3320eb31d635ace089971ad9",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "terrace-room-4",
+      "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape room-outlook photograph, 1536x1024.\nInput images: REFERENCE IMAGE(S) of the actual room and its adjoining outlook. Preserve the exact room identity, walnut rectangular window/door style, limestone, furniture and view. Create a new photograph from a new camera position, not a montage or pasted landscape.\nStyle: natural architectural travel-journal photography, warm directional daylight, tactile limestone and warm limewash, walnut and linen, subtle film grain, believable perspective and true scale. No people, logos, text, watermark, UI, luxurious added amenities, domes, new boats or pools.\nPrimary request: stand on the actual small private ground-level terrace shown through the Terrace Room doorway and photograph its two woven walnut chairs and small round wood table closely, with rosemary and an olive tree in a clay planter against the same pale limestone privacy wall. One small ceramic bowl and clear water glass on the table. One edge of the rectangular walnut glazed doorway and a hint of ivory curtain appear at far left, linking the terrace to its room. The view is entirely the planted enclosure; show no sea, no distant horizon, no pool, no balcony railing, no additional seating. Same chair shapes and calm natural materials as the primary reference. Quiet dappled afternoon light and intimate terrace scale.",
+      "alt": "Two woven chairs and a small table sit among rosemary on the Terrace Room\u2019s enclosed private terrace.",
+      "caption": "Terrace Room \u2014 your own planted terrace.",
+      "references": [
+        "terrace-room-1",
+        "terrace-room-2"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/terrace-room-4.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-e73b1e08-2348-4abc-bafb-cbb6b2debbf0.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding room references, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct real planted ground terrace with exactly two woven chairs, wood table, clay olive planter and privacy wall; no sea or balcony.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "terrace-room-4.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/terrace-room-1.png",
+        "/private/tmp/aurel-assets/terrace-room-2.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "terrace-room-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        },
+        {
+          "id": "terrace-room-2",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 3163362,
+      "sha256": "4ed6b8cafe0e8651dc2b101a81f951b16192cb5f8accaa8fd6840c36e526bf8f",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "sea-studio-4",
+      "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape room-outlook photograph, 1536x1024.\nInput images: REFERENCE IMAGE(S) of the actual room and its adjoining outlook. Preserve the exact room identity, walnut rectangular window/door style, limestone, furniture and view. Create a new photograph from a new camera position, not a montage or pasted landscape.\nStyle: natural architectural travel-journal photography, warm directional daylight, tactile limestone and warm limewash, walnut and linen, subtle film grain, believable perspective and true scale. No people, logos, text, watermark, UI, luxurious added amenities, domes, new boats or pools.\nPrimary request: photograph the actual rocky sea outlook from INSIDE the Sea Studio at its large rectangular walnut-framed window. Move camera close to the window at a gentle oblique angle; show the dark walnut frame along one side and the deep pale stone interior sill along the bottom, with only a narrow edge of the single linen daybed cushion below. The clear blue-green sea, pale limestone rocks and same flat-topped headland from the reference occupy most of the photograph. Authentic quiet daytime with slight natural glass reflection. Keep this visibly a window with an interior sill, NEVER a door or access to a private terrace. No balcony, deck, outdoor chairs, second window or new property amenities. The sea outlook is the subject, distinct from the bed/daybed interior views.",
+      "alt": "The Sea Studio\u2019s walnut window frames pale coastal rocks, blue-green water and a distant headland.",
+      "caption": "Sea Studio \u2014 the sea, framed by the window.",
+      "references": [
+        "sea-studio-1",
+        "sea-studio-2"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/sea-studio-4.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-9e7feb09-0dfd-4452-8fba-f7522cca915e.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding room references, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct close actual sea outlook with walnut window frame, stone interior sill and daybed edge; no private terrace/balcony.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "sea-studio-4.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/sea-studio-1.png",
+        "/private/tmp/aurel-assets/sea-studio-2.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "sea-studio-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        },
+        {
+          "id": "sea-studio-2",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 2623380,
+      "sha256": "32c5131b7fa697542e36c2d0a117c9aae468c04f01a65c55d412f914394999a0",
+      "embeddedC2paMetadataDetected": true
+    },
+    {
+      "id": "aurel-suite-4",
+      "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape room-outlook photograph, 1536x1024.\nInput images: REFERENCE IMAGE(S) of the actual room and its adjoining outlook. Preserve the exact room identity, walnut rectangular window/door style, limestone, furniture and view. Create a new photograph from a new camera position, not a montage or pasted landscape.\nStyle: natural architectural travel-journal photography, warm directional daylight, tactile limestone and warm limewash, walnut and linen, subtle film grain, believable perspective and true scale. No people, logos, text, watermark, UI, luxurious added amenities, domes, new boats or pools.\nPrimary request: step onto the Aurel Suite's actual private limestone sea terrace shown beyond the separate lounge in the references. Photograph two modest woven walnut lounge chairs with ivory cushions around the small pale cylindrical stone side table seen in the lounge reference; the second matching chair was just out of frame before. A single handmade ceramic cup on the table, a clay olive planter to the side, a low pale limestone parapet in back. The same rocky coast, blue-green sea and flat-topped headland stretch beyond the parapet. At far left include an edge of the rectangular walnut-framed lounge door with ivory curtain so the terrace is clearly attached to the suite. Natural golden late-afternoon light, intimate private scale, no plunge pool, hot tub, jacuzzi, pergola, extra sunbeds or resort expanse.",
+      "alt": "The Aurel Suite\u2019s private limestone terrace has two woven chairs overlooking the rocky sea.",
+      "caption": "Aurel Suite \u2014 a terrace at the edge of the sea.",
+      "references": [
+        "aurel-suite-1",
+        "aurel-suite-2"
+      ],
+      "sourcePath": "/private/tmp/aurel-assets/aurel-suite-4.png",
+      "originalPath": "/Users/zakariyajabbar/.codex/generated_images/01a084a2-be5a-79a0-972a-7e7c96eb1d62/exec-804a9d91-97a9-48e8-a5b4-dae009f36a9b.png",
+      "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding room references, no stock. Original PNG retains built-in C2PA provenance.",
+      "inspected": true,
+      "inspection": "Inspected full output: distinct private sea terrace linked to lounge doorway; two woven chairs, cylindrical stone table, olive planter and matching distant headland; no added pool/spa.",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "fileName": "aurel-suite-4.png",
+      "referenceSourcePaths": [
+        "/private/tmp/aurel-assets/aurel-suite-1.png",
+        "/private/tmp/aurel-assets/aurel-suite-2.png"
+      ],
+      "referenceRoles": [
+        {
+          "id": "aurel-suite-1",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        },
+        {
+          "id": "aurel-suite-2",
+          "role": "same room identity, furniture, materials and truthful outlook"
+        }
+      ],
+      "bytes": 2825655,
+      "sha256": "834e524e4a6e94c039a5636bf4396b3629119043dc522b38937a7869c248df48",
+      "embeddedC2paMetadataDetected": true
+    }
+  ],
+  "version": 1,
+  "totalAssets": 23,
+  "status": "complete",
+  "generationMethod": "23 separate built-in image_gen.imagegen calls, one per requested asset; hero used for architectural/style continuity, primary rooms used for dependent room views.",
+  "limitations": [
+    "All native built-in outputs are 1536x1024. A larger hero was requested in the prompt, but the tool returned 1536x1024. Do not describe an upscaled derivative as a higher-resolution source.",
+    "Fictional illustrative property; matching reference materials and room identities are visually maintained, but images are not architectural measured documentation.",
+    "The Terrace Room bathroom image has a raised shower threshold; no step-free accessibility claim."
+  ]
+}

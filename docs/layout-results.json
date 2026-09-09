@@ -1,0 +1,38 @@
+{
+  "viewport": "390x844",
+  "browser": "152.0.7977.83",
+  "checks": [
+    {
+      "name": "long edited room name at 390px: /",
+      "passed": true
+    },
+    {
+      "name": "long edited room name at 390px: /rooms/",
+      "passed": true
+    },
+    {
+      "name": "long edited room name at 390px: /rooms/courtyard-room/",
+      "passed": true
+    },
+    {
+      "name": "long edited room name at 390px: /book/",
+      "passed": true
+    },
+    {
+      "name": "200% body/control text at 390px: /contact/",
+      "passed": true
+    },
+    {
+      "name": "200% body/control text at 390px: /faq/",
+      "passed": true
+    },
+    {
+      "name": "200% body/control text at 390px: /policies/",
+      "passed": true
+    },
+    {
+      "name": "200% body/control text at 390px: /book/",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: single standalone landscape photographic asset for the AUREL HOUSE hotel website, 1536x1024.\nInput image 1: REFERENCE IMAGE of this same fictional hotel, its small scale, exact warm limestone architecture and adjacent rocky coast. Create a NEW scene or camera angle; do not copy the hero composition.\nStyle invariants: natural architectural travel-journal photography, quiet authentic Mediterranean atmosphere, warm directional sunlight, subtle film grain, honest physical textures. Warm limestone/limewash, walnut, ivory linen, woven chairs, aged bronze, olive/rosemary, modest scale. No people, text, logos, watermark, montage, UI, large resort, infinity pool or dramatic synthetic HDR.\nPrimary request: close natural breakfast-table photograph on the hotel's shaded stone terrace, loosely composed as a travel journal. A walnut dining table for two with an ivory linen runner, two handmade off-white ceramic plates and cups, a small wooden board with sliced rustic bread, a modest bowl of ripe figs and apricots, a small bowl of yogurt, olive oil and water glasses. Keep the food modest and plausible, not a banquet. Dappled olive light; woven chairs and warm limestone archway in soft background. Slightly elevated three-quarter camera angle with crisp tactile food and linen detail, gentle shallow depth of field. No labels, menus, writing, people or alcohol.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, hero reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "dining",
+  "sourceSHA256": "ddcac8faee157fe74aa2fdebe02cea0dfef85409f0fcdc33420bbd1057d252da",
+  "referenceIds": [
+    "hero"
+  ],
+  "alt": "Handmade ceramics, bread, yogurt and seasonal fruit laid for breakfast in the shade.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

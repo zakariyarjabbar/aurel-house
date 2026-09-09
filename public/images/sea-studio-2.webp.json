@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: one standalone landscape photograph, 1536x1024, for a hotel room gallery.\nInput image 1: REFERENCE IMAGE showing the exact room to photograph from a new viewpoint. Keep its furniture identity, headboard, linens, lamps, window/door shape, dimensions, materials and outlook consistent. This is a new camera position in the SAME room, not another hotel room, not a crop or montage.\nStyle: natural architectural travel-journal photography, warm directional daylight, warm limestone and limewash, walnut, ivory linen, woven texture and aged bronze; realistic perspective and subtle film grain. No people, logos, text, watermark, UI, new luxury amenities or tub.\nPrimary request: new close three-quarter photograph focused on this same Sea Studio's single-width ivory linen daybed on its low walnut frame, beneath the same large rectangular sea-facing window with a true sill. Exactly one daybed; preserve its cylindrical ivory bolster at one end and olive square cushion. A small simple walnut writing desk and woven chair from the reference are at the side. Show just the foot edge of the same king bed in the foreground, not a second whole bed. The rocky blue-green sea and flat-topped headland remain through the window; the window is not a glazed terrace door. Make the quiet daybed/window area the subject, a clearly distinct camera position from reference. No private terrace or balcony, no extra sleeping furniture.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "sea-studio-2",
+  "sourceSHA256": "5efa643dfd794e7f2f94aa88a51efeee67f29228674b7fa61dcc76741b03e4f6",
+  "referenceIds": [
+    "sea-studio-1"
+  ],
+  "alt": "The Sea Studio’s single linen daybed and walnut writing desk beside the sea-facing window.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}

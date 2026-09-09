@@ -1,0 +1,11 @@
+{
+  "prompt": "Use case: photorealistic-natural\nAsset type: a single standalone landscape bathroom photograph for a hotel room gallery, 1536x1024.\nInput image 1: REFERENCE IMAGE for the adjoining room's exact warm limewash, pale limestone, walnut and aged bronze aesthetic. Photograph its private bathroom, a NEW space attached to the same fictional room. It must share the room's scale and material palette.\nBathroom invariants: genuine walk-in shower with pale stone floor, properly mounted aged bronze showerhead and controls, a fixed clear glass splash screen, believable plumbing and an open walk-in entry. Pale limestone, warm limewash, walnut details, ivory towels, simple unbranded handmade soap dish. Absolutely NO bathtub, tub rim, hot tub, spa pool or freestanding soaking vessel. No people, logos, text, watermark, UI, collage, glossy marble, gold trim or dramatic luxury staging. Natural architectural editorial photography with honest perspective, soft directional daylight and subtle film grain.\nPrimary request: the Aurel Suite private bathroom, slightly more generous but still modest. Three-quarter architectural view with a broad walnut-fronted vanity and two simple integrated limestone basins, each with aged bronze wall tap, a wide rectangular mirror, neatly folded ivory towels and a small ochre hand towel. To the right, clearly visible separate open-entry walk-in shower with pale limestone wall and floor, clear glass screen, one bronze rainfall showerhead and a recessed stone shelf. Gentle light from a small high rectangular window. Respect believable bathroom dimensions within a total 52m² suite; no palace scale, bathtub, shower seating or spa amenities.",
+  "provenance": "AI-generated using built-in image_gen.imagegen; fictional property, corresponding primary room reference, no stock. Original PNG retains built-in C2PA provenance.",
+  "sourceAsset": "aurel-suite-3",
+  "sourceSHA256": "5f823e05961474cc5a5e892843004b85b3f2ef4b12ea4ebe500d166d4c47157e",
+  "referenceIds": [
+    "aurel-suite-1"
+  ],
+  "alt": "A limestone vanity with twin basins and a separate walk-in shower in the Aurel Suite bathroom.",
+  "transformation": "Build-time sharp resize and WebP encoding; no physical-space substitution."
+}
